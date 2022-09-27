@@ -32,14 +32,23 @@ def main():
 
 
 def collate():
-    doi_df = pd.read_csv("qid-doi.csv", engine="python", index_col=0, dtype=str)
-    pm_df = pd.read_csv("qid-pm.csv", engine="python", index_col=0, dtype=str)
-    pmc_df = pd.read_csv("qid-pmc.csv", engine="python", index_col=0, dtype=str)
+    # doi_df = pd.read_csv("qid-doi.csv", engine="python", index_col=0, dtype=str)
+    # pm_df = pd.read_csv("qid-pm.csv", engine="python", index_col=0, dtype=str)
+    # pmc_df = pd.read_csv("qid-pmc.csv", engine="python", index_col=0, dtype=str)
 
-    partial = doi_df.merge(pm_df, how="outer", left_index=True, right_index=True)
-    df = partial.merge(pmc_df, how="outer", left_index=True, right_index=True)
+    # partial = doi_df.merge(pm_df, how="outer", left_index=True, right_index=True)
+    # df = partial.merge(pmc_df, how="outer", left_index=True, right_index=True)
 
-    df.to_csv("qid-doi-pmc-pm.csv")
+    # df.to_csv("qid-doi-pmc-pm.csv")
+
+    pypi_df = pd.read_csv("qid-pypi.csv", engine="python", index_col=0, dtype=str)
+    bioc_df = pd.read_csv("qid-bioconductor.csv", engine="python", index_col=0, dtype=str)
+    cran_df = pd.read_csv("qid-cran.csv", engine="python", index_col=0, dtype=str)
+
+    partial = pypi_df.merge(bioc_df, how="outer", left_index=True, right_index=True)
+    df = partial.merge(cran_df, how="outer", left_index=True, right_index=True)
+
+    df.to_csv("qid-pypi-bioconductor-cran.csv")
 
 
 def writeSet(label, data):

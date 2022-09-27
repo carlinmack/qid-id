@@ -19,7 +19,7 @@ HEADERS = {"User-Agent": "ID-to-QID"}
 
 def main(
     test: bool = False,
-    inputFile: str = "PMC.txt",
+    inputFile: str = "cran.csv",
     pageSize: int = 125000,
     batchSize: int = 100,
 ):
@@ -55,8 +55,8 @@ def main(
             if test:
                 break
 
-        df = pd.DataFrame(data, columns=["pmc", "doi"])
-        df.to_csv("temp/pmc/qids-pmcs-" + str(start) + "-" + str(end) + ".csv", index=False)
+        df = pd.DataFrame(data, columns=["qid", "cran"])
+        df.to_csv("qid-cran-" + str(start) + "-" + str(end) + ".csv", index=False)
 
         # missingDois = set(inputList).difference(set(df["doi"]))
         # with open("missing-dois.txt", "w") as w:
