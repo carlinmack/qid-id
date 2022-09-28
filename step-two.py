@@ -1,14 +1,7 @@
-import pandas as pd
-import time
 import gzip
+import time
 
-
-# disambiguated_df = pd.read_csv(
-#     "disambiguated/comm_disambiguated.tsv.gz",
-#     sep="\\t",
-#     engine="python",
-#     compression="gzip",
-# )
+import pandas as pd
 
 
 def main():
