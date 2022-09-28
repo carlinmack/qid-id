@@ -19,7 +19,7 @@ HEADERS = {"User-Agent": "ID-to-QID"}
 
 def main(
     test: bool = False,
-    inputFile: str = "cran.csv",
+    inputFile: str = "github.csv",
     pageSize: int = 125000,
     batchSize: int = 100,
 ):
@@ -55,8 +55,8 @@ def main(
             if test:
                 break
 
-        df = pd.DataFrame(data, columns=["qid", "cran"])
-        df.to_csv("qid-cran-" + str(start) + "-" + str(end) + ".csv", index=False)
+        df = pd.DataFrame(data, columns=["qid", "github"])
+        df.to_csv("qid-github-" + str(start) + "-" + str(end) + ".csv", index=False)
 
         # missingDois = set(inputList).difference(set(df["doi"]))
         # with open("missing-dois.txt", "w") as w:
@@ -69,6 +69,10 @@ def getData(query, IDstring):
             values=IDstring,
         )
     )
+    # print(query.format(
+    #         values=IDstring,
+    #     ))
+    # exit()
     output = []
 
     for item in data["results"]["bindings"]:
