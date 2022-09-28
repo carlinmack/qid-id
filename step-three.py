@@ -14,13 +14,14 @@ software_series = pd.read_csv("qid-software.csv", index_col=1).squeeze()
 
 
 def main():
-    data = []
+    data = {"not_curated": [], "unclear": [], "software": [], "not_software": []}
     # i = 0
 
     with gzip.open("disambiguated/comm_disambiguated.tsv.gz", "rt") as gf:
         next(gf)
         for line in gf:
             values = line.split("\t")
+            
             pmcid = int(values[2])
             pmid = values[3]
             doiid = str(values[4])
@@ -47,7 +48,7 @@ def main():
                 if found and software:
                     found.append(software)
                 if found:
-                    data.append(found)
+                    data[curated].append(found)
 
                     # if len(data) > 0:
                     #     print(values)
@@ -57,11 +58,12 @@ def main():
                     # if i > 1000:
                     #     break
 
-    writeData(data)
+    for key, dataset in data.items():
+        writeData(key, dataset)
 
 
-def writeData(data):
-    with open("qsv1-all.csv", "w") as w:
+def writeData(key, data):
+    with open("qsv1-" + key + ".csv", "w") as w:
         for value in data:
             if len(value) == 2:
                 w.write(value[0] + "|P4510|" + value[1] + "|S248|Q114078827\n")

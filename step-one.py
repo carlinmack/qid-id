@@ -27,8 +27,8 @@ def main():
             # if i > 10:
             #     break
 
-    for key in data:
-        writeSet(key, data[key])
+    for key, dataset in data.items():
+        writeSet(key, dataset)
 
 
 def collate():
