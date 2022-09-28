@@ -1,6 +1,7 @@
 import gzip
 from multiprocessing import Value
 import time
+from warnings import warn
 
 import pandas as pd
 
@@ -30,16 +31,16 @@ def main():
 
             #     software 7094578
             # not software 7675631
-            if curated == "software":
-                if software in software_series.index:
-                    if pmid:
-                        pmid = int(pmid[:-2])  # remove .0
-                        if pmid in pm_series.index:
-                            data.append([pm_series[pmid], software_series[software]])
-                    elif pmcid in pmc_series.index:
-                        data.append([pmc_series[pmcid], software_series[software]])
-                    elif doiid in doi_series.index:
-                        data.append([doi_series[doiid], software_series[software]])
+            # if curated == "software":
+            if software in software_series.index:
+                if pmid:
+                    pmid = int(pmid[:-2])  # remove .0
+                    if pmid in pm_series.index:
+                        data.append([pm_series[pmid], software_series[software]])
+                elif pmcid in pmc_series.index:
+                    data.append([pmc_series[pmcid], software_series[software]])
+                elif doiid in doi_series.index:
+                    data.append([doi_series[doiid], software_series[software]])
 
                     # i += 1
                     # if i > 20:
@@ -49,14 +50,9 @@ def main():
 
 
 def writeData(data):
-    with open("triples.csv", "w") as w:
+    with open("triples-all.csv", "w") as w:
         for value in data:
-            try:
-                w.write(value[0] + ",P4510," + value[1] + "\n")
-            except BaseException as err:
-                print(value[0])
-                print(value[1])
-                raise
+            w.write(value[0] + ",P4510," + value[1] + "\n")
 
 
 if __name__ == "__main__":
