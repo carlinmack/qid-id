@@ -64,6 +64,10 @@ def main(
 
 
 def getData(query, IDstring):
+    # print( query.format(
+    #         values=IDstring,
+    #     ))
+    # exit()
     data = runQuery(
         query.format(
             values=IDstring,

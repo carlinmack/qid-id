@@ -39,33 +39,29 @@ def software():
     )
 
     # PyPI Index P5568
-    # pypi = df[df["platform"] == "Pypi"][["mapped_to", "package_url"]]
-    # pypi.set_index("mapped_to", inplace=True)
-    # pypi.rename(columns={"package_url": "pypi"}, inplace=True)
-    # pypi["pypi"] = pypi["pypi"].str.replace(r"h.*\/(.*)", r"\1", regex=True)
+    pypi = df[df["platform"] == "Pypi"][["mapped_to", "package_url"]]
+    pypi.set_index("mapped_to", inplace=True)
+    pypi.rename(columns={"package_url": "pypi"}, inplace=True)
+    pypi["pypi"] = pypi["pypi"].str.replace(r"h.*\/(.*)", r"\1", regex=True)
     # pypi.to_csv("pypi.csv", index=False)
 
     # Bioconductor Index P10892
-    # bioconductor = df[df["platform"] == "Bioconductor"][["mapped_to", "package_url"]]
-    # bioconductor.set_index("mapped_to", inplace=True)
-    # bioconductor.rename(columns={"package_url": "bioconductor"}, inplace=True)
-    # bioconductor["bioconductor"] = bioconductor["bioconductor"].str.replace(
-    #     r"h.*\/(.*).html", r"\1", regex=True
-    # )
+    bioconductor = df[df["platform"] == "Bioconductor"][["mapped_to", "package_url"]]
+    bioconductor.set_index("mapped_to", inplace=True)
+    bioconductor.rename(columns={"package_url": "bioconductor"}, inplace=True)
+    bioconductor["bioconductor"] = bioconductor["bioconductor"].str.replace(
+        r"h.*\/(.*).html", r"\1", regex=True
+    )
     # bioconductor.to_csv("bioconductor.csv", index=False)
 
     # CRAN Index P5565
-    # cran = df[df["platform"] == "CRAN"][["mapped_to", "package_url"]]
-    # cran.set_index("mapped_to", inplace=True)
-    # cran.rename(columns={"package_url": "cran"}, inplace=True)
-    # cran["cran"] = cran["cran"].str.replace(r"h.*\/(.*)\/index.html", r"\1", regex=True)
+    cran = df[df["platform"] == "CRAN"][["mapped_to", "package_url"]]
+    cran.set_index("mapped_to", inplace=True)
+    cran.rename(columns={"package_url": "cran"}, inplace=True)
+    cran["cran"] = cran["cran"].str.replace(r"h.*\/(.*)\/index.html", r"\1", regex=True)
     # cran.to_csv("cran.csv", index=False)
 
-    # partial = pypi.merge(bioconductor, how="outer", left_index=True, right_index=True)
-    # all_df = partial.merge(cran, how="outer", left_index=True, right_index=True)
-
-    # all_df.to_csv("software-ids.csv")
-
+    
     # Github repo P1324
     github = df[["mapped_to", "github_repo"]]
     github.set_index("mapped_to", inplace=True)
@@ -75,7 +71,12 @@ def software():
     github = github.repository.apply(clean_repository)
 
     github.dropna(inplace=True)
-    github.to_csv("github.csv", index=False)
+    # github.to_csv("github.csv")
+
+    partial = pypi.merge(bioconductor, how="outer", left_index=True, right_index=True)
+    all_df = partial.merge(cran, how="outer", left_index=True, right_index=True)
+
+    all_df.to_csv("software-ids.csv")
 
 
 def clean_repository(element):
@@ -87,7 +88,6 @@ def clean_repository(element):
             if element_list == [None]:
                 return
             
-            # print(element_list)
             element_list = map(lambda x: x.strip("/").strip(","), element_list)
             element_list = map(lambda x: re.sub(r"/(issues/?|wiki/?|discussions/?|releases/?|actions/?)$", "", x), element_list)
             element_list = map(lambda x: re.sub(r"\.git$", "", x), element_list)
@@ -95,7 +95,6 @@ def clean_repository(element):
             element_list = map(lambda x: re.sub(r"/(blob|tree)/main.*$", "", x), element_list)
             element_list = map(lambda x: re.sub(r"/(blob|tree)/master.*$", "", x), element_list)
             element_list = filter(lambda x: x.count("/") >= 4, element_list)
-            # element_list = filter(lambda x: not re.match(r".*/(issues/?$|wiki/?$|discussions/?$|actions/?)", x), element_list)
             element_list = list(set(element_list))
             if element_list == []:
                 return
@@ -106,14 +105,15 @@ def clean_repository(element):
                 print(element_list)
     else:
         return element
-    # new = []
-    # for val in element:
-    #     if val != 'none':
-    #         new.append(val)
-    # if len(new) == 0:
-    #     return np.nan
-    # else:
-    #     return new
+
+
+def collate():
+    qids = pd.read_csv("qid-github-url.csv", engine="python", index_col=1, dtype=str)
+    software = pd.read_csv("github.csv", engine="python", index_col=1, dtype=str)
+
+    merged = software.merge(qids, how="inner", left_index=True, right_index=True)
+
+    merged[["qid", "mapped_to"]].to_csv("qid-github.csv", index=False)
 
 
 def writeSet(label, data):
@@ -125,5 +125,6 @@ def writeSet(label, data):
 if __name__ == "__main__":
     tick = time.time()
     # main()
-    software()
+    # software()
+    # collate()
     print("Time: " + str(time.time() - tick))

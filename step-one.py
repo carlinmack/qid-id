@@ -44,11 +44,13 @@ def collate():
     pypi_df = pd.read_csv("qid-pypi.csv", engine="python", index_col=0, dtype=str)
     bioc_df = pd.read_csv("qid-bioconductor.csv", engine="python", index_col=0, dtype=str)
     cran_df = pd.read_csv("qid-cran.csv", engine="python", index_col=0, dtype=str)
+    gith_df = pd.read_csv("qid-github.csv", engine="python", index_col=0, dtype=str)
 
     partial = pypi_df.merge(bioc_df, how="outer", left_index=True, right_index=True)
-    df = partial.merge(cran_df, how="outer", left_index=True, right_index=True)
+    next_df = partial.merge(cran_df, how="outer", left_index=True, right_index=True)
+    df = next_df.merge(gith_df, how="outer", left_index=True, right_index=True)
 
-    df.to_csv("qid-pypi-bioconductor-cran.csv")
+    df.to_csv("qid-pypi-bioc-cran-gith.csv")
 
 
 def writeSet(label, data):
