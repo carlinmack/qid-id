@@ -33,6 +33,8 @@ def main():
             #     software 7094578
             # not software 7675631
             # if curated == "software":
+            if software == "napari":
+                mapped_software = "napari"
             if mapped_software in software_series.index:
                 found = []
 
