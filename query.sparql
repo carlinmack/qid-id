@@ -1,0 +1,5 @@
+SELECT ?item ?id {{
+  VALUES ?id {{ {values} }}
+  
+  ?item wdt:P1324 ?id .
+}}
