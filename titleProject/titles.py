@@ -1,18 +1,13 @@
-"""
-If query.sparql and the input data file are downloaded, 
-the script can simply be called as:
-
-python iq-to-qid.py
-"""
-
 import argparse
+import html
 import os
 import time
+import csv
+import re
 import pandas as pd
-
 import requests
 from requests.exceptions import HTTPError
-from tqdm import tqdm, trange
+from tqdm import trange
 
 HEADERS = {"User-Agent": "ID-to-QID"}
 
@@ -51,26 +46,64 @@ def main(
             IDstring = " ".join(["wd:" + q for q in IDs])
 
             data += getData(query, IDstring)
-            
+
             if test:
                 break
 
         df = pd.DataFrame(data, columns=["qid", "title"])
         df.to_csv("data/qid-title-" + str(start) + "-" + str(end) + ".csv", index=False)
         if test:
-                break
+            break
+
 
 def titleProcessing():
     df = pd.read_csv("qid-title.csv")
 
-    freq = df["title"].value_counts(ascending=False)
-    freq.head(1000).to_csv("qid-title-freq.csv")
+    # freq_df = df["title"].value_counts(ascending=False)
+    # freq_df.head(1000).to_csv("qid-title-freq.csv")
 
-    html = df[df.title.str.contains('<(sup|sub|i|SUP|SUB|I)>', regex= True, na=False)]
-    html.to_csv("qid-title-html.csv", index=False)
+    html_df = df[df.title.str.contains("<(sup|sub|i|SUP|SUB|I)>", regex=True, na=False)]
+    html_df.to_csv("qid-title-html.csv", index=False)
 
-    html = df[df.title.str.contains('&\w\w+;', regex= True, na=False)]
-    html.to_csv("qid-title-special.csv", index=False)
+    special_df = df[df.title.str.contains("&\w\w+;", regex=True, na=False)]
+    special_df.to_csv("qid-title-special.csv", index=False)
+
+    # Perform multiple times as strings can be encoded multiple times
+    for _ in range(10):
+        special_df["title"] = special_df["title"].apply(lambda x: html.unescape(x))
+
+    # filter dataframes based on presence of html tags
+    cond = special_df.title.str.contains(
+        "<(sup|sub|i|SUP|SUB|I)>", regex=True, na=False
+    )
+    just_special_df = special_df[~cond]
+    special_html_df = special_df[cond]
+
+    both_html_df = pd.concat([html_df, special_html_df])
+
+    just_special_df["title"] = just_special_df["title"].apply(lambda x: '"' + x + '"')
+    both_html_df["title"] = both_html_df["title"].apply(lambda x: '"' + x + '"')
+
+    just_special_df["P1476"] = "P1476"
+    just_special_df = just_special_df[["qid", "P1476", "title"]]
+    just_special_df.to_csv(
+        "qsv1-special.tsv", sep="\t", index=False, header=False, quoting=csv.QUOTE_NONE
+    )
+
+    both_html_df["P1476"] = "P1476"
+    both_html_df["qal6833"] = "qal6833"
+    both_html_df["no_html"] = both_html_df.apply(lambda row: removeHTML(row), axis=1)
+    both_html_df = both_html_df[["qid", "P1476", "no_html", "qal6833", "title"]]
+    both_html_df.to_csv(
+        "qsv1-html.tsv", sep="\t", index=False, header=False, quoting=csv.QUOTE_NONE
+    )
+
+
+def removeHTML(row):
+    return re.sub(
+        r"(<sup>|</sup>|<sub>|</sub>|<i>|</i>)", "", row["title"], flags=re.IGNORECASE
+    )
+
 
 def getData(query, IDstring):
     data = runQuery(

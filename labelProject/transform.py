@@ -1,7 +1,8 @@
-import time
 import csv
-import pandas as pd
 import html
+import time
+
+import pandas as pd
 
 
 def main():
