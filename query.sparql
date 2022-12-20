@@ -1,5 +1,6 @@
-SELECT ?item ?id {{
+SELECT ?item ?id ?license {{
   VALUES ?id {{ {values} }}
   
-  ?item wdt:P1324 ?id .
+  ?item wdt:P356 ?id .
+  optional {{?item wdt:P275 ?license}}
 }}
