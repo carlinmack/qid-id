@@ -20,7 +20,7 @@ with open(dataDir + "cc.json", "r") as r:
 
 
 def main(batch):
-    directory = dataDir + "April 2022 Public Data File from Crossref/"
+    directory = dataDir + "April 2023 Public Data File from Crossref/"
 
     output = []
     # it = 0
@@ -42,18 +42,17 @@ def main(batch):
                         k = i["license"][0]
                         if "creativecommons" in k["URL"] or "gov" in k["URL"]:
                             qid = licenseToCC(k["URL"])
-                            output.append([i["DOI"], k["URL"], qid])
-
+                            start, end = getStartEnd(k)
+                            output.append([i["DOI"], k["URL"], qid, start, end])
         # it += 1
         # if it > 25:
         #     break
-
     if not batch:
         filename = dataDir + "CC.csv"
     else:
         filename = dataDir + "CC-" + batch + ".csv"
     with open(filename, "w", newline="") as w:
-        w.write("doi,licenseURL,licenseQID\n")
+        w.write("doi,licenseURL,licenseQID,start,end\n")
         writer = csv.writer(w)
         writer.writerows(output)
 
@@ -104,14 +103,14 @@ def collate(batch):
 
             # if row.licenseQID in ["Q6938433", "Q114756497"]:  # public domain or cc zero
             if type(row.start) != str and type(row.end) != str:
-                w.write(f"{row.qid}|P275|{row.licenseQID}|P248|Q115868162\n")
+                w.write(f"{row.qid}|P275|{row.licenseQID}|P248|Q118680719\n")
             elif type(row.start) == str and type(row.end) != str:
                 w.write(
-                    f"{row.qid}|P275|{row.licenseQID}|P580|+{row.start}|P248|Q115868162\n"
+                    f"{row.qid}|P275|{row.licenseQID}|P580|+{row.start}|P248|Q118680719\n"
                 )
             elif type(row.start) == str and type(row.end) == str:
                 w.write(
-                    f"{row.qid}|P275|{row.licenseQID}|P580|+{row.start}|P582|+{row.end}|P248|Q115868162\n"
+                    f"{row.qid}|P275|{row.licenseQID}|P580|+{row.start}|P582|+{row.end}|P248|Q118680719\n"
                 )
 
             if row.licenseQID in ["Q6938433", "Q114756497"]:  # public domain or cc zero
@@ -120,49 +119,63 @@ def collate(batch):
                 w.write(f"{row.qid}|P6216|Q50423863\n")
 
 
-def edit():
+def edit(skip=0):  # how many lines in the file to skip, used for running after a crash
     input = "crossref/data/qs.csv"
     site = pywikibot.Site("wikidata", "wikidata")
+    site.login()
     repo = site.data_repository()
 
     t = tqdm(total=2887572, miniters=1)
     # i = 0
     with open(input, "r") as r:
-        for i in range(12):
+        for _ in range(skip):
             next(r)
             t.update()
         for line in r:
             statement = line.split("|")
 
-            # Lines are of the form
-            # Q60431984|P275|Q20007257|P580|+2002-06-25T00:00:00Z/11|S248|Q115868162
+            # Q60431984|P275|Q20007257|P580|+2002-06-25T00:00:00Z/11|S248|Q118680719
             # Q60431984|P6216|Q50423863
 
-            item = pywikibot.ItemPage(repo, statement[0])
-            copyrightLicense = pywikibot.Claim(repo, statement[1])
-            targetLicense = pywikibot.ItemPage(repo, statement[2])
-            copyrightLicense.setTarget(targetLicense)
-            if statement[1] == "P275":
-                item.addClaim(copyrightLicense, summary='Add licence')
-            else:
-                item.addClaim(copyrightLicense, summary='Add licence status')
+            try:
+                item = pywikibot.ItemPage(repo, statement[0])
+                copyrightLicense = pywikibot.Claim(repo, statement[1])
+                targetLicense = pywikibot.ItemPage(repo, statement[2])
+                copyrightLicense.setTarget(targetLicense)
+                if statement[1] == "P275":
+                    item.addClaim(copyrightLicense, summary="Add licence")
+                else:
+                    item.addClaim(copyrightLicense, summary="Add licence status")
 
-            if len(statement) > 3 and statement[3] == "P580":
-                startTime = pywikibot.Claim(repo, statement[3])
-                targetTime = pywikibot.WbTime.fromTimestr(statement[4], precision=11)
-                startTime.setTarget(targetTime)
-                copyrightLicense.addQualifier(startTime, summary="Add start time")
+                if len(statement) > 3 and statement[3] == "P580":
+                    startTime = pywikibot.Claim(repo, statement[3])
+                    targetTime = pywikibot.WbTime.fromTimestr(
+                        statement[4], precision=11
+                    )
+                    startTime.setTarget(targetTime)
+                    copyrightLicense.addQualifier(startTime, summary="Add start time")
 
-            if len(statement) > 5 and statement[5] == "P248":
-                statedin = pywikibot.Claim(repo, statement[5])
-                targetDataFile = pywikibot.ItemPage(repo, statement[6])
-                statedin.setTarget(targetDataFile)
-                copyrightLicense.addSources([statedin], summary="Add stated in")
+                    if len(statement) > 5 and statement[5] == "P248":
+                        statedin = pywikibot.Claim(repo, statement[5])
+                        targetDataFile = pywikibot.ItemPage(repo, statement[6])
+                        statedin.setTarget(targetDataFile)
+                        copyrightLicense.addSources([statedin], summary="Add stated in")
+                elif len(statement) > 3 and statement[3] == "P248":
+                    statedin = pywikibot.Claim(repo, statement[3])
+                    targetDataFile = pywikibot.ItemPage(repo, statement[4])
+                    statedin.setTarget(targetDataFile)
+                    copyrightLicense.addSources([statedin], summary="Add stated in")
 
-            t.update()
-            # i += 1
-            # if i > 9:
-            #     exit()
+                t.update()
+                # i += 1
+                # if i > 5:
+                #     exit()
+            except Exception as e:
+                with open("failedQS.csv", "a") as a:
+                    a.write(line)
+                with open("failedQS-reasons.csv", "a") as a:
+                    a.write(str(e))
+                time.sleep(10)
 
 
 def licenseInfo():
@@ -217,7 +230,7 @@ def collectLicenses():
                 match = re.search("^(.*): (\d+)$", line.strip())
                 license_counts[match.group(1)] += int(match.group(2))
 
-    with open(f"license_counts.txt", "w") as w:
+    with open("license_counts.txt", "w") as w:
         for license, count in sorted(
             license_counts.items(), key=lambda x: x[1], reverse=True
         ):
@@ -268,6 +281,8 @@ def defineArgParser():
         action="store",
     )
 
+    parser.add_argument("-s", "--skip", type=int)
+
     return parser
 
 
@@ -277,10 +292,10 @@ if __name__ == "__main__":
     clArgs = argParser.parse_args()
 
     tick = time.time()
-    # main(batch=clArgs.batch)
-    # getIDs(batch=clArgs.batch)
+    main(batch=clArgs.batch)
+    getIDs(batch=clArgs.batch)
     # collate(batch=clArgs.batch)
     # licenseInfo()
     # collectLicenses()
-    edit()
+    # edit(skip=clArgs.skip)
     print(f"Elapsed time: {time.time() - tick} seconds")
