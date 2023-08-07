@@ -1,0 +1,4 @@
+Total number of DOIs is 112,013,354
+Sample size was 1,120,133 or 1.00% of total
+251,865 were found on Wikidata, or 22.49% of the sample
+3,657 have a license in Wikidata, or 1.45% of those found
