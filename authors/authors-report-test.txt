@@ -1,0 +1,37 @@
+Items: 115,845,460
+
+Author name strings (not unique): 390,050,406
+Author name strings (unique): 7,375,592
+Number of items per author: 52.9
+Number of authors per item: 0.1
+ORCIDs (not unique): 22,060,154
+Number of ORCIDs (unique): 5,487,701
+Number of items per ORCID: 4.0
+Authenticated ORCIDs (not unique): 3,076,815 (14%)
+
+Papers where:
+    No author has an ORCID: 105,449,629 (91%)
+    Any author has an ORCID: 10,395,831 (9%)
+        All authors have ORCIDs: 2,620,695 (2.3%)
+
+Average number of names per ORCID: 1.3
+ORCIDs with one author: 4,246,706 (77%)
+ORCIDs with two author name strings: 848,189 (15%)
+ORCIDs with more than two author name strings: 392,806 (7%)
+
+Top ten ORCIDs with the most author name strings:
+	http://orcid.org/0000-0002-1825-0097: 1,158
+	http://orcid.org/0000-0002-5024-6186: 189
+	http://orcid.org/0000-0002-7045-4310: 134
+	http://orcid.org/0000-0001-2345-6789: 111
+	http://orcid.org/0000-0001-7511-2910: 91
+	http://orcid.org/0000-0001-7496-4951: 81
+	http://orcid.org/0000-0002-9501-3028: 71
+	http://orcid.org/0000-0001-5373-2326: 64
+	http://orcid.org/0000-0002-5982-8983: 54
+	http://orcid.org/0000-0002-3319-5516: 53
+
+Authors name strings with ', ' (i.e., a list of names): 2,204
+Number of ORCIDs which have duplicate DOIs: 1
+	Number of DOIs for which any ORCID occurs more than once: 1
+Number of ORCIDs with string similarity less than 0.2: 1

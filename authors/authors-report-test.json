@@ -1,0 +1,327 @@
+{
+    "http://orcid.org/0000-0001-6868-7572": {
+        "expected": "Emilia Laing",
+        "canon_similarity": 0.21,
+        "Kent E. Pinkerton": [
+            "10.1177/0192623317729222",
+            "10.1177/01926233221107607",
+            "10.1177/0192623319879091"
+        ]
+    },
+    "http://orcid.org/0000-0001-8412-2889": {
+        "expected": "Alfredo Molinolo",
+        "canon_similarity": 0.24,
+        "similarity": 0.22,
+        "Alfredo A Molinolo": [
+            "10.1136/jitc-2020-001710"
+        ],
+        "Alfredo A. Molinolo": [
+            "10.1158/0008-5472.c.6511397.v1",
+            "10.1101/2022.02.01.478744",
+            "10.1158/0008-5472.can-18-1220",
+            "10.1158/1078-0432.ccr-18-2024",
+            "10.1158/1055-9965.epi-18-0353",
+            "10.1126/scitranslmed.aap8798"
+        ],
+        "Alfredo Molinolo": [
+            "10.1073/pnas.2117065119"
+        ],
+        "Napoleone Ferrara": [
+            "10.1158/1535-7163.mct-19-0958"
+        ]
+    },
+    "http://orcid.org/0000-0001-7826-4485": {
+        "expected": "Devkumar Mustafi",
+        "canon_similarity": 0.29,
+        "similarity": 0.29,
+        "Devkumar Mustafi": [
+            "10.1002/nbm.4363",
+            "10.1155/2019/5987425"
+        ],
+        "Gregory S. Karczmar": [
+            "10.1002/nbm.3758"
+        ]
+    },
+    "http://orcid.org/0000-0001-6026-353X": {
+        "expected": "Chung-Hsing Lin",
+        "canon_similarity": 0.21,
+        "similarity": 0.21,
+        "Shih‐Ann Chen": [
+            "10.1111/jce.15034",
+            "10.1111/jce.14888",
+            "10.1111/jce.14457",
+            "10.1111/jce.14057",
+            "10.1111/jce.15806"
+        ],
+        "Shih-Ann Chen": [
+            "10.1111/jce.13664",
+            "10.1111/jce.13628",
+            "10.1111/jce.13629",
+            "10.1111/jce.13376",
+            "10.22541/au.167061202.22248073/v1"
+        ],
+        "Chung-Hsing Lin": [
+            "10.1111/jce.13359"
+        ]
+    },
+    "http://orcid.org/0000-0003-0545-2156": {
+        "expected": "YaoTing Chang",
+        "canon_similarity": 0.59,
+        "similarity": 1,
+        "Shih‐Lin Chang": [
+            "10.1111/jce.15034",
+            "10.1111/jce.14888",
+            "10.1111/jce.14457",
+            "10.1111/jce.14181",
+            "10.1111/jce.14057",
+            "10.1111/jce.15806"
+        ],
+        "Shih-Lin Chang": [
+            "10.1111/jce.13376",
+            "10.22541/au.167061202.22248073/v1"
+        ]
+    },
+    "http://orcid.org/0000-0002-8547-2992": {
+        "expected": "Eline Vegter",
+        "canon_similarity": 0.07,
+        "Adriaan A. Voors": [
+            "10.1007/s00392-020-01598-w"
+        ]
+    },
+    "http://orcid.org/0000-0002-8855-4176": {
+        "expected": "Anne Herrmann",
+        "canon_similarity": 0.22,
+        "similarity": 0.22,
+        "Anne Herrmann": [
+            "10.1186/s12913-020-05927-7",
+            "10.1111/ecc.12871",
+            "10.1007/s00520-017-3944-9",
+            "10.1002/hsr2.13",
+            "10.1186/s12904-019-0478-6",
+            "10.1016/j.pec.2019.06.011",
+            "10.1016/j.pec.2018.12.006",
+            "10.1186/s12905-018-0673-2",
+            "10.1186/s13104-018-3552-x"
+        ],
+        "Alison C Zucca": [
+            "10.1177/0269216319865414"
+        ]
+    },
+    "http://orcid.org/0000-0002-4910-2222": {
+        "expected": "Jesus F. Barajas",
+        "canon_similarity": 0.19,
+        "similarity": 0.19,
+        "Jesus F. Barajas": [
+            "10.1002/cbic.201800299",
+            "10.1002/cbic.201800169"
+        ],
+        "Jay D. Keasling": [
+            "10.1021/acs.analchem.6b05004",
+            "10.1021/acssynbio.6b00372",
+            "10.1021/jacs.6b11895",
+            "10.1021/acssynbio.6b00295",
+            "10.1021/acssynbio.6b00136"
+        ]
+    },
+    "http://orcid.org/0000-0003-4170-6088": {
+        "expected": "Jay D. Keasling",
+        "canon_similarity": 0.89,
+        "similarity": 0.89,
+        "Jay D. Keasling": [
+            "10.1101/2021.12.09.472016",
+            "10.1038/s41557-021-00801-3",
+            "10.1038/s41929-021-00631-z",
+            "10.1126/sciadv.abf0187",
+            "10.1128/aem.00177-21",
+            "10.1038/s41467-020-19171-4",
+            "10.1038/s41467-020-17910-1",
+            "10.1128/aem.01665-20",
+            "10.1021/acschembio.8b00422",
+            "10.1002/cbic.201800299",
+            "10.1038/s41589-018-0017-4",
+            "10.1002/cbic.201800169",
+            "10.1021/acssynbio.7b00466",
+            "10.1038/s41467-018-03293-x",
+            "10.1105/tpc.16.00186",
+            "10.1038/s42003-022-04336-2",
+            "10.1101/2022.12.04.519061",
+            "10.1016/j.tetlet.2022.154229",
+            "10.1038/s41586-022-05157-3",
+            "10.1126/sciadv.abp8823",
+            "10.1128/aem.02430-21",
+            "10.1038/s41587-022-01248-8",
+            "10.1021/acssuschemeng.1c07851",
+            "10.1038/s41467-020-16815-3",
+            "10.1021/jacs.0c04328",
+            "10.1021/jacs.0c02549",
+            "10.1021/acssynbio.9b00402",
+            "10.1101/2020.02.21.954792",
+            "10.1016/j.biotno.2020.01.002",
+            "10.1021/acssynbio.9b00292",
+            "10.1021/jacs.9b09187",
+            "10.1016/j.xpro.2023.102190",
+            "10.1021/acssynbio.9b00230",
+            "10.1021/acssynbio.9b00255",
+            "10.1002/cbic.201900560",
+            "10.1021/acs.jproteome.9b00455",
+            "10.1038/s41467-019-10862-1",
+            "10.1002/anie.201901782",
+            "10.1002/ange.201901782",
+            "10.1038/s41467-019-10079-2",
+            "10.1038/s41467-018-07040-0",
+            "10.1126/science.aat7925",
+            "10.1021/acs.biochem.8b00915",
+            "10.1101/443473",
+            "10.1021/acsomega.8b01620",
+            "10.1002/aic.16351"
+        ],
+        "Jay D Keasling": [
+            "10.1038/nbt.4173",
+            "10.1101/2023.03.16.532821",
+            "10.1093/jxb/erac505"
+        ],
+        "Jay Keasling": [
+            "10.21203/rs.3.rs-2200679/v1"
+        ]
+    },
+    "http://orcid.org/0000-0002-7125-9998": {
+        "expected": "Charles Mwansambo",
+        "canon_similarity": 0.33,
+        "similarity": 0.33,
+        "Charles Mwansambo": [
+            "10.1371/journal.pmed.1003300",
+            "10.1101/2022.05.12.22274986"
+        ],
+        "Sonia Lewycka": [
+            "10.1371/journal.pmed.1002467"
+        ]
+    },
+    "http://orcid.org/0000-0002-5923-9468": {
+        "expected": "Sonia Lewycka",
+        "canon_similarity": 1,
+        "Sonia Lewycka": [
+            "10.1136/bmjopen-2020-040977",
+            "10.1111/jpc.13930",
+            "10.3390/antibiotics11121751",
+            "10.1080/03036758.2022.2072349",
+            "10.1101/2020.07.08.20149153"
+        ]
+    },
+    "http://orcid.org/0000-0003-3512-7696": {
+        "expected": "Tamires Vital",
+        "canon_similarity": 0.15,
+        "similarity": 0.08,
+        "Tamires Vital": [
+            "10.53455/re.v3i.29"
+        ],
+        "Mariana Hecht": [
+            "10.1590/0037-8682-0069-2018"
+        ]
+    },
+    "http://orcid.org/0000-0002-0046-4353": {
+        "expected": "Flavia Kiweewa Matovu",
+        "canon_similarity": 0.26,
+        "similarity": 0.2,
+        "Flavia Matovu Kiweewa": [
+            "10.1186/s12981-021-00338-y",
+            "10.1002/jia2.25257"
+        ],
+        "Flavia Kiweewa Matovu": [
+            "10.1002/jbm4.10446",
+            "10.1080/15284336.2018.1513711"
+        ],
+        "Flavia M Kiweewa": [
+            "10.1002/jia2.25634"
+        ],
+        "Flavia Matovu": [
+            "10.1080/09540121.2023.2177250"
+        ],
+        "Kevin P. Weinfurt": [
+            "10.1080/23294515.2019.1593257"
+        ]
+    },
+    "http://orcid.org/0000-0001-6336-327X": {
+        "expected": "Matthias Krebs",
+        "canon_similarity": 0.25,
+        "similarity": 0.17,
+        "Matthias Krebs": [
+            "10.1111/nph.16922",
+            "10.1101/2020.03.25.004770"
+        ],
+        "H. Joosten": [
+            "10.1111/plb.13092"
+        ]
+    },
+    "http://orcid.org/0000-0001-9459-1128": {
+        "expected": "Nuria Ferreiro-Dominguez",
+        "canon_similarity": 0.37,
+        "similarity": 0.26,
+        "Nuria Ferreiro-Domínguez": [
+            "10.3390/su14074270",
+            "10.1016/j.gloenvcha.2019.04.002"
+        ],
+        "Gerardo Moreno": [
+            "10.1016/j.ecoser.2019.100896"
+        ],
+        "N. Ferreiro-Domínguez": [
+            "10.1016/j.landusepol.2018.06.052"
+        ]
+    },
+    "http://orcid.org/0000-0001-7458-027X": {
+        "expected": "Anna T Ryan",
+        "canon_similarity": 0.79,
+        "similarity": 0.69,
+        "Anna T. Ryan": [
+            "10.1002/ase.2075",
+            "10.1186/s12998-018-0180-4"
+        ],
+        "Anna Ryan": [
+            "10.1111/medu.14319",
+            "10.1007/s40037-020-00606-z",
+            "10.1111/medu.13575",
+            "10.1111/medu.13366",
+            "10.3390/educsci12070487",
+            "10.1111/medu.13802"
+        ],
+        "Anna Therese Ryan": [
+            "10.5694/mja2.50235"
+        ]
+    },
+    "http://orcid.org/0000-0002-0480-5522": {
+        "expected": "Chi Baik",
+        "canon_similarity": 1,
+        "Chi Baik": [
+            "10.1080/07294360.2021.2013169",
+            "10.1080/07294360.2021.1874886",
+            "10.1080/07294360.2020.1865284",
+            "10.1080/07294360.2020.1845124",
+            "10.1080/03075079.2020.1811220",
+            "10.1080/03075079.2019.1698539",
+            "10.1080/0309877x.2019.1664731",
+            "10.1080/07294360.2019.1576596"
+        ]
+    },
+    "http://orcid.org/0000-0001-9606-4671": {
+        "expected": "Eric Williams",
+        "canon_similarity": 0.26,
+        "Didacus B. Namanya": [
+            "10.1029/2018gh000157"
+        ]
+    },
+    "http://orcid.org/0000-0001-6906-4617": {
+        "expected": "Didacus B. Namanya",
+        "canon_similarity": 1,
+        "Didacus B. Namanya": [
+            "10.1080/17441692.2021.1937273",
+            "10.1080/19320248.2020.1852146",
+            "10.1371/journal.pgph.0000144"
+        ]
+    },
+    "http://orcid.org/0000-0002-1606-4610": {
+        "expected": "samaneh khakpouri",
+        "canon_similarity": 0.36,
+        "Majid Ghayour Mobarhan": [
+            "10.1002/jcla.22235"
+        ]
+    }
+}

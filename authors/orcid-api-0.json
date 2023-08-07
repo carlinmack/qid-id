@@ -1,0 +1,447 @@
+{
+    "http://orcid.org/0000-0002-8109-5456": {
+        "name": "cergei ziatdinov",
+        "other_names": []
+    },
+    "http://orcid.org/0000-0002-3105-2167": {
+        "name": "J.S. (Pat) Heslop-Harrison",
+        "other_names": [
+            "Pat Heslop-Harrison"
+        ]
+    },
+    "http://orcid.org/0000-0002-5885-6835": {
+        "name": "Jeeyeon Lee",
+        "other_names": []
+    },
+    "http://orcid.org/0000-0002-2208-0545": {
+        "name": "Charlotte Bronnimann",
+        "other_names": []
+    },
+    "http://orcid.org/0000-0002-3395-4279": {
+        "name": "Byung Su Yoo",
+        "other_names": []
+    },
+    "http://orcid.org/0000-0003-4851-3641": {
+        "name": "Sergey Slipchenko",
+        "other_names": [
+            "Sergey Slipchenko"
+        ]
+    },
+    "http://orcid.org/0000-0002-8583-2935": {
+        "name": "Ilya Shashkin",
+        "other_names": []
+    },
+    "http://orcid.org/0000-0002-0911-283X": {
+        "name": "Dmitrii Veselov",
+        "other_names": []
+    },
+    "http://orcid.org/0000-0001-7104-3524": {
+        "name": "Dmitriy Nikolaev",
+        "other_names": []
+    },
+    "http://orcid.org/0000-0002-0492-2227": {
+        "name": "Nikita Pikhtin",
+        "other_names": []
+    },
+    "http://orcid.org/0000-0002-3831-7252": {
+        "name": "Johana Matabanchoy",
+        "other_names": []
+    },
+    "http://orcid.org/0000-0001-8482-0345": {
+        "name": "Christian Zambrano Guerrero",
+        "other_names": [
+            "Christian Zambrano"
+        ]
+    },
+    "http://orcid.org/0000-0002-4603-6960": {
+        "name": "Peigao Luo",
+        "other_names": []
+    },
+    "http://orcid.org/0000-0003-1690-9414": {
+        "name": "Huizhu HU",
+        "other_names": [
+            "HU Hui-zhu"
+        ]
+    },
+    "http://orcid.org/0000-0003-4793-4110": {
+        "name": "Albérico Rosário",
+        "other_names": []
+    },
+    "http://orcid.org/0000-0002-7022-9447": {
+        "name": "Ricardo Jorge Raimundo",
+        "other_names": []
+    },
+    "http://orcid.org/0000-0002-5773-6049": {
+        "name": "Rui Cruz",
+        "other_names": []
+    },
+    "http://orcid.org/0000-0002-4475-0415": {
+        "name": "Jay Hooper",
+        "other_names": [
+            "Jay W Hooper"
+        ]
+    },
+    "http://orcid.org/0000-0003-4533-7937": {
+        "name": "Chin Kook Rhee",
+        "other_names": []
+    },
+    "http://orcid.org/0000-0001-9595-439X": {
+        "name": "Ibrahim Abbas",
+        "other_names": []
+    },
+    "http://orcid.org/0000-0001-8185-6625": {
+        "name": "Van Dan Castro Gerónimo",
+        "other_names": [
+            "Van DC Gerónimo"
+        ]
+    },
+    "http://orcid.org/0000-0001-5552-5515": {
+        "name": "Rosa Virginia García Rodríguez",
+        "other_names": [
+            "Rosa V. García-Rodríguez"
+        ]
+    },
+    "http://orcid.org/0000-0002-3017-9801": {
+        "name": "Alberto Sánchez-Medina",
+        "other_names": [
+            "Alberto Sánchez Medina"
+        ]
+    },
+    "http://orcid.org/0000-0002-0926-5502": {
+        "name": "Claudia Verónica Moreno Quirós",
+        "other_names": []
+    },
+    "http://orcid.org/0000-0002-0378-1768": {
+        "name": "Enrique Mendez Bolaina",
+        "other_names": []
+    },
+    "http://orcid.org/0000-0002-3754-4330": {
+        "name": "HEATHER M. YOCUM",
+        "other_names": []
+    },
+    "http://orcid.org/0000-0001-5385-1202": {
+        "name": "Andrea Ray",
+        "other_names": []
+    },
+    "http://orcid.org/0000-0002-9496-4884": {
+        "name": "Luis Fernando Ferreira",
+        "other_names": []
+    },
+    "http://orcid.org/0000-0001-6715-626X": {
+        "name": "Oscar Mitsuo Yamashita",
+        "other_names": [
+            "yama"
+        ]
+    },
+    "http://orcid.org/0000-0002-0345-3799": {
+        "name": "Laura I. González-Zapata",
+        "other_names": []
+    },
+    "http://orcid.org/0000-0002-3261-1282": {
+        "name": "Alejandro Estrada Restrepo",
+        "other_names": []
+    },
+    "http://orcid.org/0000-0002-1222-4373": {
+        "name": "Sergiu Shova",
+        "other_names": []
+    },
+    "http://orcid.org/0000-0003-0172-330X": {
+        "name": "Stéphane Vassilopoulos",
+        "other_names": []
+    },
+    "http://orcid.org/0000-0002-4928-293X": {
+        "name": "Priscilla Gazarian",
+        "other_names": []
+    },
+    "http://orcid.org/0000-0002-4696-3123": {
+        "name": "Robert Semco",
+        "other_names": []
+    },
+    "http://orcid.org/0000-0002-6301-996X": {
+        "name": "Ganquan Mao",
+        "other_names": []
+    },
+    "http://orcid.org/0000-0001-7055-9131": {
+        "name": "Giridhar Sethuraman",
+        "other_names": []
+    },
+    "http://orcid.org/0000-0002-2216-9232": {
+        "name": "Mariana G. López",
+        "other_names": []
+    },
+    "http://orcid.org/0000-0002-8352-180X": {
+        "name": "Manuela Torres-Puente",
+        "other_names": []
+    },
+    "http://orcid.org/0000-0001-6097-6708": {
+        "name": "Caroline Colijn",
+        "other_names": []
+    },
+    "http://orcid.org/0000-0003-3728-3182": {
+        "name": "Adelina Gimeno Gascon",
+        "other_names": []
+    },
+    "http://orcid.org/0000-0001-5504-9408": {
+        "name": "Iñaki Comas",
+        "other_names": []
+    },
+    "http://orcid.org/0000-0003-1950-9037": {
+        "name": "伟 徐",
+        "other_names": [
+            "W Xu",
+            "Wei Xu",
+            "Xu W",
+            "Xu Wei"
+        ]
+    },
+    "http://orcid.org/0000-0002-6354-940X": {
+        "name": "道本 朱",
+        "other_names": []
+    },
+    "http://orcid.org/0000-0001-7955-9111": {
+        "name": "Richard Unwin",
+        "other_names": []
+    },
+    "http://orcid.org/0000-0001-8394-8355": {
+        "name": "Simon Clark",
+        "other_names": []
+    },
+    "http://orcid.org/0000-0003-3638-9719": {
+        "name": "Mark Clark Assen de Carvalho",
+        "other_names": []
+    },
+    "http://orcid.org/0000-0002-3278-3914": {
+        "name": "Dinair Leal da Hora",
+        "other_names": []
+    },
+    "http://orcid.org/0000-0002-1914-9724": {
+        "name": "Erin Hanlon",
+        "other_names": []
+    },
+    "http://orcid.org/0000-0003-0873-3543": {
+        "name": "Dominique Bergmann",
+        "other_names": []
+    },
+    "http://orcid.org/0000-0002-2241-3514": {
+        "name": "Rakesh Mondal",
+        "other_names": []
+    },
+    "http://orcid.org/0000-0001-6140-7806": {
+        "name": "Елена Сараева",
+        "other_names": []
+    },
+    "http://orcid.org/0000-0002-7763-2431": {
+        "name": "Zhuqiu Song",
+        "other_names": [
+            "Z. Song; Z.-Q. Song; Zhu-Qiu Song"
+        ]
+    },
+    "http://orcid.org/0000-0002-6596-5124": {
+        "name": "Li Shi-Jin",
+        "other_names": [
+            "Li Shijn"
+        ]
+    },
+    "http://orcid.org/0000-0003-2911-0740": {
+        "name": "Sawai Mattapha",
+        "other_names": []
+    },
+    "http://orcid.org/0000-0003-2614-7820": {
+        "name": "Romina Maria Agustina Heredia",
+        "other_names": []
+    },
+    "http://orcid.org/0000-0001-6680-0922": {
+        "name": "Loree Pham",
+        "other_names": []
+    },
+    "http://orcid.org/0000-0001-5892-0473": {
+        "name": "Vassili Molodiakov",
+        "other_names": []
+    },
+    "http://orcid.org/0000-0002-3474-0766": {
+        "name": "David Primo Martin",
+        "other_names": []
+    },
+    "http://orcid.org/0000-0002-1745-9315": {
+        "name": "Daniel de Luis",
+        "other_names": []
+    },
+    "http://orcid.org/0000-0002-4558-3153": {
+        "name": "Valeria Andreeva",
+        "other_names": []
+    },
+    "http://orcid.org/0000-0002-4139-8962": {
+        "name": "Александр Еремин",
+        "other_names": []
+    },
+    "http://orcid.org/0000-0001-5729-1118": {
+        "name": "Olena Adamovych",
+        "other_names": []
+    },
+    "http://orcid.org/0000-0002-7407-4980": {
+        "name": "Anatoliy  Safonov",
+        "other_names": []
+    },
+    "http://orcid.org/0000-0001-9293-6321": {
+        "name": "Rostyslav Sohuyko",
+        "other_names": []
+    },
+    "http://orcid.org/0000-0002-2622-4753": {
+        "name": "Yevgen Paltov",
+        "other_names": []
+    },
+    "http://orcid.org/0000-0002-4457-1572": {
+        "name": "Jorge L. Cholula-Díaz",
+        "other_names": []
+    },
+    "http://orcid.org/0000-0001-7034-7331": {
+        "name": "Diriba Temesgen",
+        "other_names": []
+    },
+    "http://orcid.org/0000-0001-7308-8443": {
+        "name": "Julio César Giraldo Forero",
+        "other_names": []
+    },
+    "http://orcid.org/0000-0003-3538-6313": {
+        "name": "Luis Reinel Vásquez Arteaga",
+        "other_names": [
+            "Vásquez-Arteaga, Luis Reinel",
+            "Vásquez-A, Luis Reinel",
+            "Vasquez-A, Luis Reinel",
+            "Vásquez, L.R."
+        ]
+    },
+    "http://orcid.org/0000-0003-2939-1618": {
+        "name": "Andrey Sorochaikin",
+        "other_names": [
+            "Сорочайкин Андрей"
+        ]
+    },
+    "http://orcid.org/0000-0002-3033-3813": {
+        "name": "Иван Сорочайкин",
+        "other_names": []
+    },
+    "http://orcid.org/0000-0002-7403-9288": {
+        "name": "Jianchun Xie",
+        "other_names": []
+    },
+    "http://orcid.org/0000-0003-1371-7249": {
+        "name": "Олег Кожевников",
+        "other_names": []
+    },
+    "http://orcid.org/0000-0002-1556-3258": {
+        "name": "Turkes Mirela Catalina",
+        "other_names": []
+    },
+    "http://orcid.org/0000-0003-3799-3993": {
+        "name": "Sorinel Capusneanu",
+        "other_names": [
+            "Sorinel Capusneanu"
+        ]
+    },
+    "http://orcid.org/0000-0002-5517-8151": {
+        "name": "Dana Maria Constantin (Oprea)",
+        "other_names": [
+            "Dana Maria Martinescu, Dana Maria Constantin",
+            "Dana Maria Oprea"
+        ]
+    },
+    "http://orcid.org/0000-0001-8526-570X": {
+        "name": "Johnny Montenegro",
+        "other_names": []
+    },
+    "http://orcid.org/0000-0001-5989-9290": {
+        "name": "Samuel Schumann",
+        "other_names": []
+    },
+    "http://orcid.org/0000-0001-6363-1246": {
+        "name": "Mohamed Kayid",
+        "other_names": [
+            "M. Kayid"
+        ]
+    },
+    "http://orcid.org/0000-0002-1705-5417": {
+        "name": "Nassr Al-Maflehi",
+        "other_names": []
+    },
+    "http://orcid.org/0000-0002-8346-9116": {
+        "name": "Vasyl Pekhnyo",
+        "other_names": []
+    },
+    "http://orcid.org/0000-0003-0174-520X": {
+        "name": "kigon kim",
+        "other_names": []
+    },
+    "http://orcid.org/0000-0002-6261-9111": {
+        "name": "Jaebeom Cha",
+        "other_names": []
+    },
+    "http://orcid.org/0000-0002-7747-5077": {
+        "name": "Choo Hyo Jun",
+        "other_names": []
+    },
+    "http://orcid.org/0000-0001-6195-4519": {
+        "name": "Byoungho Park",
+        "other_names": []
+    },
+    "http://orcid.org/0000-0003-1982-2023": {
+        "name": "Euichul Hong",
+        "other_names": []
+    },
+    "http://orcid.org/0000-0001-5888-1769": {
+        "name": "Cesar Rodriguez-Saona",
+        "other_names": []
+    },
+    "http://orcid.org/0000-0001-9273-6311": {
+        "name": "Anna Akhmetova",
+        "other_names": []
+    },
+    "http://orcid.org/0000-0002-9890-4934": {
+        "name": "saman saedi",
+        "other_names": []
+    },
+    "http://orcid.org/0000-0002-9851-5971": {
+        "name": "Светлана Григорьевна Макеева",
+        "other_names": []
+    },
+    "http://orcid.org/0000-0002-1187-6417": {
+        "name": "Jeff Jin",
+        "other_names": []
+    },
+    "http://orcid.org/0000-0003-4894-4660": {
+        "name": "Kevin Maik Jablonka",
+        "other_names": []
+    },
+    "http://orcid.org/0000-0002-1185-3549": {
+        "name": "Johannes W. Dietrich",
+        "other_names": [
+            "Johannes Dietrich",
+            "Johannes Wolfgang Christian Dietrich",
+            "J·W·迪耶特里克"
+        ]
+    },
+    "http://orcid.org/0000-0002-4911-9526": {
+        "name": "Matthias A. Müller",
+        "other_names": []
+    },
+    "http://orcid.org/0000-0001-9216-7921": {
+        "name": "Hui Jin",
+        "other_names": []
+    },
+    "http://orcid.org/0000-0002-1264-8125": {
+        "name": "VALERIA REGINA CAVALCANTE SANTOS",
+        "other_names": []
+    },
+    "http://orcid.org/0000-0002-4603-7920": {
+        "name": "Vanda Soares",
+        "other_names": []
+    },
+    "http://orcid.org/0000-0003-2817-4574": {
+        "name": "Pilar Moraes",
+        "other_names": []
+    },
+    "http://orcid.org/0000-0001-8715-3576": {
+        "name": "Aurimery Chermont",
+        "other_names": []
+    }
+}

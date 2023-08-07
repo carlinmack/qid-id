@@ -1,0 +1,9 @@
+Items: 115,845,460
+Authors (not unique): 390,050,406
+ORCIDs (not unique): 22,060,154
+Authenticated ORCIDs (not unique): 3,076,815
+
+Papers where:
+	No author has an ORCID: 105,449,629 (91%)
+	Any author has an ORCID: 10,395,831 (9%)
+	    All authors have ORCIDs: 2,620,695 (2.3%)

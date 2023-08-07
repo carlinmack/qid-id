@@ -1,0 +1,586 @@
+SSLError
+SSLError
+SSLError
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0003-4902-8197/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f2b0db2c750>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0002-4906-9856/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f2b0f36d950>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0003-0265-5396/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f2b0f56a590>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SSLError
+SSLError
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0002-2789-1363/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f2b0f433a50>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SSLError
+('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+SSLError
+SSLError
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0003-2391-1184/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f2b0f4d24d0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0002-2503-8086/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f2b0db2de50>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0001-8218-9801/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f2b0f358d50>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SSLError
+SSLError
+SSLError
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0001-7652-1759/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f2b18ee1b90>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0001-5744-4655/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f2b0f486e10>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0003-4123-0518/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f2b0f40e310>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0001-9781-0541/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f2b0db4a890>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0003-0267-1847/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f2b18f2f810>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SSLError
+SSLError
+SSLError
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0003-4436-4845/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f2b0f49c190>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SSLError
+SSLError
+SSLError
+SSLError
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0002-2221-294X/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f2b0f44af10>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SSLError
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0002-5834-5680/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f2b18f07a10>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0003-3855-161X/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f2b0f333b10>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SSLError
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0002-7560-017X/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f2b0f3df910>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0002-0063-4316/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f2b0f2f9fd0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SSLError
+SSLError
+SSLError
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0001-7023-218X/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f2b0f359110>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SSLError
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0002-9953-2933/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f2b0db696d0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SSLError
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0001-9040-9990/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f2b18e8ca10>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0002-1064-0808/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f2b0db21dd0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0003-1199-8948/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7ff4bc723010>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0003-2035-5063/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7ff4bc6a6410>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0002-0155-7236/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7ff4bc6a65d0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0001-5284-0421/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7ff4bc6aa6d0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0003-3015-2139/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f9be1b11750>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0003-2639-2260/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f9be263c750>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0002-5211-8938/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f9bdf9a5910>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0002-4803-7414/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f9be2676650>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0002-4669-2108/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f9be20d2b10>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0003-2743-4258/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f9be3644ed0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SSLError
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0001-5324-6264/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f9be262b210>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0002-1059-5867/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7ff8fcff3750>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+SSLError
+SSLError
+SSLError
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0002-0387-397X/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7f11982c5190>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SSLError
+SSLError
+SSLError
+('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0002-8782-2191/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fc580e74210>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SSLError
+SSLError
+SSLError
+SSLError
+('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0001-5992-8928/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fbdc43a5a50>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0001-6286-2018/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fbdcb29a590>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0002-9104-6199/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fbdcb346790>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0001-9645-6245/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fbdc43708d0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0003-0246-6640/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fbdcb343650>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0002-5196-0672/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fbdcb323990>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SSLError
+SSLError
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0002-7600-1910/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fbdcb3d6790>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0003-0002-0274/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fbdc43767d0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0003-0743-5210/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fbdcb2b9190>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SSLError
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0002-3302-7985/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fbdcb30b490>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SSLError
+SSLError
+SSLError
+Exceeded 30 redirects.
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0002-9693-7804/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fbdc43b9d50>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SSLError
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0001-5841-0529/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fbdcb4af310>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0002-8976-3703/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fbdc434ee50>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SSLError
+SSLError
+SSLError
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0003-4719-5645/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fbdcb325110>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0003-1516-9426/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fbdcb453490>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0002-4006-5779/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fbdcb25cc90>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0002-0970-4739/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fbdc4352c10>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0002-1370-4299/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fbdc4343f50>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0001-9016-5383/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fbdcb40a750>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SSLError
+SSLError
+SSLError
+SSLError
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0002-7689-662X/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fbdcb267f90>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SSLError
+SSLError
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0003-4904-4963/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fbdcb2ef390>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SSLError
+SSLError
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0002-5232-159X/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fbdc9db6590>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SSLError
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0002-5201-7432/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fbdc4396150>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0001-9467-5284/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fbdcb533a50>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0002-7555-170X/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fbdc43268d0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SSLError
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0002-9586-0227/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fbdc4394650>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0002-1505-500X/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fbdca0707d0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0002-5089-5100/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fbdcb2d76d0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0003-0439-1929/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fbdcb4b64d0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SSLError
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0002-9250-2061/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fbdcb428410>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0003-3946-8279/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fbdcb4ba350>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SSLError
+SSLError
+SSLError
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0001-9328-1355/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fbdcb268d10>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0001-9205-9971/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fbdcb28cbd0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0001-6685-6942/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fbdc4391dd0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0001-7977-3097/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fbdcb45b850>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SSLError
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0001-5651-6952/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fbdc9f42410>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0002-7140-5676/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fbdcb495cd0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SSLError
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0002-0330-9236/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fbdcb2469d0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0002-3351-9138/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fbdc4337690>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SSLError
+SSLError
+SSLError
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0001-8835-4599/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fbdca00d890>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SSLError
+SSLError
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0002-1197-8501/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fbdcb447190>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SSLError
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0001-9655-6254/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fbdcb2f0a10>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SSLError
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0002-6190-9037/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fbdcb31e3d0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0002-8897-3987/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fbdcb50cf90>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SSLError
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0003-1113-4939/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fbdcb416a10>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SSLError
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0002-8045-6141/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fbdcb29ee90>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0002-8885-6166/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fbdcb459c50>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SSLError
+SSLError
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0001-6385-2823/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fbdcb30dc50>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0002-1952-3122/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fbdcb329b10>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SSLError
+SSLError
+SSLError
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0002-0455-5455/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fbdcb52d110>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SSLError
+SSLError
+SSLError
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0003-3365-760X/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fbdc433cf90>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0002-6549-2611/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fbdc4372b10>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0003-4231-6081/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fbdcb2af7d0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0002-1086-1117/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fbdc9ef0950>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0003-0002-0135/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fbdcb439150>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+SSLError
+SSLError
+SSLError
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0002-8313-2097/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fbdcb345ad0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SSLError
+SSLError
+SSLError
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0002-5096-6968/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fbdc9dcb650>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SSLError
+SSLError
+SSLError
+SSLError
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0002-4262-6111/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fbdcb349d50>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SSLError
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0001-7153-1077/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fbdcb40afd0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0002-9039-9670/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fbdcb4de710>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SSLError
+SSLError
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0001-8157-6148/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fbdcb495290>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SSLError
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0001-6505-2483/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fbdca0d2990>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SSLError
+SSLError
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0002-0387-2205/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fbdc433fd50>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0003-0197-6833/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fbdcb3be8d0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SSLError
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0002-4118-338X/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fbdcb3d5150>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SSLError
+SSLError
+SSLError
+SSLError
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0001-9548-7816/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fbdc43a9d90>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SSLError
+SSLError
+SSLError
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0001-8846-2258/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fbdcb45fa10>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0002-0338-2273/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fbdcb490150>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SSLError
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0003-1250-9587/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fbdc9f0f550>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0003-1599-4047/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fbdcb279ad0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0002-8951-0482/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fbdcb4fed10>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SSLError
+SSLError
+SSLError
+SSLError
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0002-0247-5785/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fbdc4375f50>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0003-4862-8588/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fbdc437d9d0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0002-9643-2611/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fbdc9f79a10>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0002-9829-235X/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fbdcb453310>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SSLError
+SSLError
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0002-8020-3232/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fbdc4331a90>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SSLError
+SSLError
+SSLError
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0001-5066-0515/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fbdcb503110>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SSLError
+SSLError
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0003-3530-7670/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fbdc4345f90>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SSLError
+SSLError
+SSLError
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0001-8508-0641/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fbdc4391b90>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SSLError
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0001-7848-3709/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fbdcb3a3790>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SSLError
+SSLError
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0002-6303-2937/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fbdcb36a690>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0001-5802-4791/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fbdcb31f850>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0001-8618-9403/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fbdcb473dd0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SSLError
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0002-3633-741X/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fbdc4344990>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0003-1101-2122/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fbdcb368150>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SSLError
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0001-6722-2909/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fbdcb24dd10>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SSLError
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0002-7318-9508/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fbdcb2b5a10>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+SSLError
+Exceeded 30 redirects.
+HTTPSConnectionPool(host='pub.orcid.org', port=443): Max retries exceeded with url: /v3.0/0000-0002-8985-0006/person (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x7fe0835e3e90>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
