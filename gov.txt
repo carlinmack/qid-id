@@ -1,0 +1,12 @@
+https://creativecommons.org/publicdomain/zero/1.0/: 19110
+https://creativecommons.org/publicdomain/zero/1.0/legalcode: 18391
+http://creativecommons.org/publicdomain/zero/1.0/: 6572
+http://www.usa.gov/publicdomain/label/1.0/: 3907
+https://creativecommons.org/share-your-work/public-domain/cc0/: 476
+https://creativecommons.org/publicdomain/mark/1.0/: 453
+http://creativecommons.org/publicdomain/zero/1.0: 27
+https://creativecommons.org/share-your-work/public-domain/pdm/: 24
+http://creativecommons.org/publicdomain/zero/1.0/legalcode: 3
+http://creativecommons.org/licenses/by/4.0/http://creativecommons.org/publicdomain/zero/1.0/: 1
+http://creativecommons.org/publicdomain/mark/1.0/: 1
+http://creat1vecommons.org/pub/icdomain/zero/l.O/: 1

@@ -1,0 +1,710 @@
+    {
+        [
+            {
+      "key" : "ref68/cit68",
+      "doi-asserted-by" : "publisher",
+      "DOI" : "10.1021/acsbiomaterials.7b00635"
+    }, {
+      "key" : "ref69/cit69",
+      "doi-asserted-by" : "publisher",
+      "DOI" : "10.1016/j.ijpharm.2018.05.012"
+    }, {
+      "key" : "ref70/cit70",
+      "doi-asserted-by" : "publisher",
+      "DOI" : "10.1021/bc100374p"
+    }, {
+      "key" : "ref71/cit71",
+      "doi-asserted-by" : "publisher",
+      "DOI" : "10.1016/j.colsurfb.2017.07.030"
+    }, {
+      "key" : "ref72/cit72",
+      "doi-asserted-by" : "publisher",
+      "DOI" : "10.1016/j.biopha.2018.08.047"
+    }, {
+      "key" : "ref73/cit73",
+      "doi-asserted-by" : "publisher",
+      "DOI" : "10.1016/j.nano.2016.01.017"
+    }, {
+      "key" : "ref74/cit74",
+      "doi-asserted-by" : "publisher",
+      "DOI" : "10.1016/j.actbio.2017.02.042"
+    }, {
+      "key" : "ref75/cit75",
+      "doi-asserted-by" : "publisher",
+      "DOI" : "10.1016/j.jmmm.2018.11.019"
+    }, {
+      "key" : "ref76/cit76",
+      "doi-asserted-by" : "publisher",
+      "DOI" : "10.1158/0008-5472.CAN-03-2661"
+    }, {
+      "key" : "ref77/cit77",
+      "doi-asserted-by" : "publisher",
+      "DOI" : "10.1166/jnn.2015.10834"
+    }, {
+      "key" : "ref78/cit78",
+      "doi-asserted-by" : "publisher",
+      "DOI" : "10.1021/acsbiomaterials.7b00639"
+    }, {
+      "key" : "ref79/cit79",
+      "doi-asserted-by" : "publisher",
+      "DOI" : "10.1016/j.biomaterials.2014.01.018"
+    }, {
+      "key" : "ref80/cit80",
+      "doi-asserted-by" : "publisher",
+      "DOI" : "10.1002/adfm.200801689"
+    }, {
+      "key" : "ref81/cit81",
+      "doi-asserted-by" : "publisher",
+      "DOI" : "10.1039/C1CS15248C"
+    }, {
+      "key" : "ref82/cit82",
+      "doi-asserted-by" : "publisher",
+      "DOI" : "10.1002/jmri.20235"
+    }, {
+      "key" : "ref83/cit83",
+      "doi-asserted-by" : "publisher",
+      "DOI" : "10.1002/ange.201100101"
+    } ],
+    "title" : [ "Theranostic α-Lactalbumin-Polymer-Based Nanocomposite as a Drug Delivery Carrier for Cancer Therapy" ],
+    "link" : [ {
+      "URL" : "https://pubs.acs.org/doi/pdf/10.1021/acsbiomaterials.9b01236",
+      "content-type" : "unspecified",
+      "content-version" : "vor",
+      "intended-application" : "similarity-checking"
+    } ],
+    "source" : "Crossref",
+    "type" : "journal-article",
+    "publisher" : "American Chemical Society (ACS)",
+    "journal-issue" : {
+      "issue" : "10",
+      "published-print" : {
+        "date-parts" : [ [ 2019, 10, 14 ] ]
+      }
+    },
+    "volume" : "5",
+    "references-count" : 83,
+    "issn-type" : [ {
+      "value" : "2373-9878",
+      "type" : "print"
+    }, {
+      "value" : "2373-9878",
+      "type" : "electronic"
+    } ],
+    "deposited" : {
+      "date-parts" : [ [ 2022, 3, 23 ] ],
+      "date-time" : "2022-03-23T00:31:35Z",
+      "timestamp" : 1647995495000
+    },
+    "language" : "en",
+    "page" : "5189-5208",
+    "short-container-title" : [ "ACS Biomater. Sci. Eng." ]
+  }, {
+    "abstract" : "<jats:sec><jats:title>Background:</jats:title><jats:p> There is increasing demand for primary care practitioners to play a key role in palliative care delivery. Given this, it is important to understand their perceptions of the barriers and enablers to optimal palliative care, and how commonly these are experienced. </jats:p></jats:sec><jats:sec><jats:title>Aim:</jats:title><jats:p> To explore the type and prevalence of barriers and enablers to palliative care provision reported by primary care practitioners. </jats:p></jats:sec><jats:sec><jats:title>Design:</jats:title><jats:p> A systematic review of quantitative data-based articles was conducted. </jats:p></jats:sec><jats:sec><jats:title>Data sources:</jats:title><jats:p> Medline, Embase and PsychINFO databases were searched for articles published between January 2007 and March 2019. </jats:p></jats:sec><jats:sec><jats:title>Data synthesis:</jats:title><jats:p> Abstracts were assessed against the eligibility criteria by one reviewer and a random sample of 80 articles were blind coded by a second author. Data were extracted from eligible full-texts by one author and checked by a second. Given the heterogeneity in the included studies’ methods and outcomes, a narrative synthesis was undertaken. </jats:p></jats:sec><jats:sec><jats:title>Results:</jats:title><jats:p> Twenty-one studies met the inclusion criteria. The most common barriers related to bureaucratic procedures, communication between healthcare professionals, primary care practitioners’ personal commitments, and their skills or confidence. The most common enablers related to education, nurses and trained respite staff to assist with care delivery, better communication between professionals, and templates to facilitate referral to out-of-hours services. </jats:p></jats:sec><jats:sec><jats:title>Conclusion:</jats:title><jats:p> A holistic approach addressing the range of barriers reported in this review is needed to support primary care providers to deliver palliative care. This includes better training and addressing barriers related to the interface between healthcare services. </jats:p></jats:sec>",
+    "URL" : "http://dx.doi.org/10.1177/0269216319865414",
+    "resource" : {
+      "primary" : {
+        "URL" : "http://journals.sagepub.com/doi/10.1177/0269216319865414"
+      }
+    },
+    "member" : "179",
+    "score" : 0.0,
+    "created" : {
+      "date-parts" : [ [ 2019, 9, 5 ] ],
+      "date-time" : "2019-09-05T11:47:42Z",
+      "timestamp" : 1567684062000
+    },
+    "update-policy" : "http://dx.doi.org/10.1177/sage-journals-update-policy",
+    "license" : [ {
+      "start" : {
+        "date-parts" : [ [ 2019, 9, 5 ] ],
+        "date-time" : "2019-09-05T00:00:00Z",
+        "timestamp" : 1567641600000
+      },
+      "content-version" : "tdm",
+      "delay-in-days" : 0,
+      "URL" : "http://journals.sagepub.com/page/policies/text-and-data-mining-license"
+    } ],
+    "ISSN" : [ "0269-2163", "1477-030X" ],
+    "container-title" : [ "Palliative Medicine" ],
+    "issued" : {
+      "date-parts" : [ [ 2019, 9, 5 ] ]
+    },
+    "issue" : "9",
+    "prefix" : "10.1177",
+    "reference-count" : 57,
+    "indexed" : {
+      "date-parts" : [ [ 2023, 3, 24 ] ],
+      "date-time" : "2023-03-24T18:31:01Z",
+      "timestamp" : 1679682661272
+    },
+    "author" : [ {
+      "ORCID" : "http://orcid.org/0000-0002-0549-1115",
+      "authenticated-orcid" : false,
+      "given" : "Mariko L",
+      "family" : "Carey",
+      "sequence" : "first",
+      "affiliation" : [ {
+        "name" : "Faculty of Health and Medicine, The University of Newcastle, Callaghan, NSW, Australia"
+      }, {
+        "name" : "Priority Research Centre for Health Behaviour, The University of Newcastle, Callaghan, NSW, Australia"
+      }, {
+        "name" : "Hunter Medical Research Institute, New Lambton Heights, NSW, Australia"
+      }, {
+        "name" : "Health Behaviour Research Collaborative, The University of Newcastle, Callaghan, NSW, Australia"
+      } ]
+    }, {
+      "ORCID" : "http://orcid.org/0000-0002-8855-4176",
+      "authenticated-orcid" : false,
+      "given" : "Alison C",
+      "family" : "Zucca",
+      "sequence" : "additional",
+      "affiliation" : [ {
+        "name" : "Faculty of Health and Medicine, The University of Newcastle, Callaghan, NSW, Australia"
+      }, {
+        "name" : "Priority Research Centre for Health Behaviour, The University of Newcastle, Callaghan, NSW, Australia"
+      }, {
+        "name" : "Hunter Medical Research Institute, New Lambton Heights, NSW, Australia"
+      }, {
+        "name" : "Health Behaviour Research Collaborative, The University of Newcastle, Callaghan, NSW, Australia"
+      } ]
+    }, {
+      "given" : "Megan AG",
+      "family" : "Freund",
+      "sequence" : "additional",
+      "affiliation" : [ {
+        "name" : "Faculty of Health and Medicine, The University of Newcastle, Callaghan, NSW, Australia"
+      }, {
+        "name" : "Priority Research Centre for Health Behaviour, The University of Newcastle, Callaghan, NSW, Australia"
+      }, {
+        "name" : "Hunter Medical Research Institute, New Lambton Heights, NSW, Australia"
+      }, {
+        "name" : "Health Behaviour Research Collaborative, The University of Newcastle, Callaghan, NSW, Australia"
+      } ]
+    }, {
+      "ORCID" : "http://orcid.org/0000-0001-9378-5852",
+      "authenticated-orcid" : false,
+      "given" : "Jamie",
+      "family" : "Bryant",
+      "sequence" : "additional",
+      "affiliation" : [ {
+        "name" : "Faculty of Health and Medicine, The University of Newcastle, Callaghan, NSW, Australia"
+      }, {
+        "name" : "Priority Research Centre for Health Behaviour, The University of Newcastle, Callaghan, NSW, Australia"
+      }, {
+        "name" : "Hunter Medical Research Institute, New Lambton Heights, NSW, Australia"
+      }, {
+        "name" : "Health Behaviour Research Collaborative, The University of Newcastle, Callaghan, NSW, Australia"
+      } ]
+    }, {
+      "given" : "Anne",
+      "family" : "Herrmann",
+      "sequence" : "additional",
+      "affiliation" : [ {
+        "name" : "Faculty of Health and Medicine, The University of Newcastle, Callaghan, NSW, Australia"
+      }, {
+        "name" : "Priority Research Centre for Health Behaviour, The University of Newcastle, Callaghan, NSW, Australia"
+      }, {
+        "name" : "Hunter Medical Research Institute, New Lambton Heights, NSW, Australia"
+      }, {
+        "name" : "Health Behaviour Research Collaborative, The University of Newcastle, Callaghan, NSW, Australia"
+      } ]
+    }, {
+      "given" : "Bernadette J",
+      "family" : "Roberts",
+      "sequence" : "additional",
+      "affiliation" : [ {
+        "name" : "Cancer Council New South Wales, Woolloomooloo, NSW, Australia"
+      } ]
+    } ],
+    "DOI" : "10.1177/0269216319865414",
+    "is-referenced-by-count" : 50,
+    "funder" : [ {
+      "DOI" : "10.13039/501100001102",
+      "name" : "Cancer Council NSW",
+      "doi-asserted-by" : "publisher",
+      "award" : [ "Strategic Research Partnership Grant (CSR 11-02)" ]
+    }, {
+      "DOI" : "10.13039/501100001081",
+      "name" : "Hunter Medical Research Institute",
+      "doi-asserted-by" : "publisher",
+      "award" : [ "Infrastructure Funding" ]
+    }, {
+      "DOI" : "10.13039/501100000925",
+      "name" : "National Health and Medical Research Council",
+      "doi-asserted-by" : "publisher",
+      "award" : [ "APP1105809 - Jamie Bryant" ]
+    }, {
+      "DOI" : "10.13039/501100000925",
+      "name" : "National Health and Medical Research Council",
+      "doi-asserted-by" : "publisher",
+      "award" : [ "APP1132839 - Megan Freund" ]
+    }, {
+      "DOI" : "10.13039/501100000925",
+      "name" : "National Health and Medical Research Council",
+      "doi-asserted-by" : "publisher",
+      "award" : [ "APP1136168 - Mariko Carey" ]
+    } ],
+    "published" : {
+      "date-parts" : [ [ 2019, 9, 5 ] ]
+    },
+    "published-print" : {
+      "date-parts" : [ [ 2019, 10 ] ]
+    },
+    "alternative-id" : [ "10.1177/0269216319865414" ],
+    "subject" : [ "Anesthesiology and Pain Medicine", "General Medicine" ],
+    "published-online" : {
+      "date-parts" : [ [ 2019, 9, 5 ] ]
+    },
+    "content-domain" : {
+      "domain" : [ "journals.sagepub.com" ],
+      "crossmark-restriction" : true
+    },
+    "reference" : [ {
+      "key" : "bibr1-0269216319865414",
+      "doi-asserted-by" : "publisher",
+      "DOI" : "10.1016/S0885-3924(02)00440-2"
+    }, {
+      "key" : "bibr2-0269216319865414",
+      "doi-asserted-by" : "publisher",
+      "DOI" : "10.1136/bmjspcare-2016-001125"
+    }, {
+      "key" : "bibr3-0269216319865414",
+      "doi-asserted-by" : "publisher",
+      "DOI" : "10.1191/0269216302pm573oa"
+    }, {
+      "key" : "bibr4-0269216319865414",
+      "doi-asserted-by" : "publisher",
+      "DOI" : "10.1056/NEJMp1215620"
+    }, {
+      "key" : "bibr5-0269216319865414",
+      "doi-asserted-by" : "publisher",
+      "DOI" : "10.1177/0269216307084606"
+    }, {
+      "key" : "bibr6-0269216319865414",
+      "doi-asserted-by" : "publisher",
+      "DOI" : "10.1016/S0140-6736(09)61460-4"
+    }, {
+      "key" : "bibr7-0269216319865414",
+      "doi-asserted-by" : "publisher",
+      "DOI" : "10.1016/j.colegn.2010.04.007"
+    }, {
+      "key" : "bibr8-0269216319865414",
+      "doi-asserted-by" : "publisher",
+      "DOI" : "10.1016/S0140-6736(13)61809-7"
+    }, {
+      "key" : "bibr9-0269216319865414",
+      "doi-asserted-by" : "publisher",
+      "DOI" : "10.1200/JCO.2008.20.1558"
+    }, {
+      "key" : "bibr10-0269216319865414",
+      "unstructured" : "Department of Health and Human Services. Health service use at the end of life and projection of palliative care in Victoria, 2016, https://www2.health.vic.gov.au/palliative-care"
+    }, {
+      "key" : "bibr11-0269216319865414",
+      "doi-asserted-by" : "publisher",
+      "DOI" : "10.1186/s12916-017-0860-2"
+    }, {
+      "key" : "bibr12-0269216319865414",
+      "unstructured" : "National Health Service. 2010 to 2015 government policy: end of life care. London: National Health Service, https://www.gov.uk/government/publications/2010-to-2015-government-policy-end-of-life-care (2015, accessed 6 April 2018)."
+    }, {
+      "key" : "bibr13-0269216319865414",
+      "volume-title" : "The New Zealand palliative care strategy",
+      "author" : "Ministry of Health",
+      "year" : "2008"
+    }, {
+      "key" : "bibr14-0269216319865414",
+      "volume-title" : "The NSW government plan to increase access to palliative care 2012–2016",
+      "author" : "NSW Ministry of Health",
+      "year" : "2012"
+    }, {
+      "key" : "bibr15-0269216319865414",
+      "doi-asserted-by" : "publisher",
+      "DOI" : "10.3399/bjgp12X641474"
+    }, {
+      "key" : "bibr16-0269216319865414",
+      "doi-asserted-by" : "publisher",
+      "DOI" : "10.1177/0269216310395987"
+    }, {
+      "key" : "bibr17-0269216319865414",
+      "doi-asserted-by" : "publisher",
+      "DOI" : "10.1089/jpm.2015.0274"
+    }, {
+      "key" : "bibr18-0269216319865414",
+      "first-page" : "107",
+      "volume" : "10",
+      "author" : "Lam M",
+      "year" : "2017",
+      "journal-title" : "J Pain Manage"
+    }, {
+      "key" : "bibr19-0269216319865414",
+      "doi-asserted-by" : "publisher",
+      "DOI" : "10.1097/SPC.0000000000000023"
+    }, {
+      "key" : "bibr20-0269216319865414",
+      "doi-asserted-by" : "publisher",
+      "DOI" : "10.1177/0269216314531999"
+    }, {
+      "key" : "bibr21-0269216319865414",
+      "unstructured" : "Aromataris E, Munn Z. Joanna Briggs Institute reviewer’s manual. The Joanna Briggs Institute, 2017, https://reviewersmanual.joannabriggs.org/"
+    }, {
+      "key" : "bibr22-0269216319865414",
+      "doi-asserted-by" : "publisher",
+      "DOI" : "10.7326/0003-4819-151-4-200908180-00135"
+    }, {
+      "key" : "bibr23-0269216319865414",
+      "doi-asserted-by" : "publisher",
+      "DOI" : "10.1196/annals.1425.011"
+    }, {
+      "key" : "bibr24-0269216319865414",
+      "doi-asserted-by" : "publisher",
+      "DOI" : "10.1177/0269216307077460"
+    }, {
+      "key" : "bibr25-0269216319865414",
+      "doi-asserted-by" : "publisher",
+      "DOI" : "10.1097/XEB.0000000000000054"
+    }, {
+      "key" : "bibr26-0269216319865414",
+      "doi-asserted-by" : "publisher",
+      "DOI" : "10.1111/j.1365-2648.2007.04569.x"
+    }, {
+      "key" : "bibr27-0269216319865414",
+      "unstructured" : "Popay J, Roberts H, Sowden Aet al. Guidance on the conduct of narrative synthesis in systematic reviews: a product from the ESRC methods programme, http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.178.3100&rep=rep1&type=pdf (2006, accessed 7 May 2019)."
+    }, {
+      "key" : "bibr28-0269216319865414",
+      "doi-asserted-by" : "publisher",
+      "DOI" : "10.1177/0825859718766947"
+    }, {
+      "key" : "bibr29-0269216319865414",
+      "doi-asserted-by" : "publisher",
+      "DOI" : "10.1177/0825859717706791"
+    }, {
+      "issue" : "1",
+      "key" : "bibr30-0269216319865414",
+      "first-page" : "51",
+      "volume" : "46",
+      "author" : "Le B",
+      "year" : "2017",
+      "journal-title" : "Aust Fam Physician"
+    }, {
+      "key" : "bibr31-0269216319865414",
+      "doi-asserted-by" : "publisher",
+      "DOI" : "10.1071/PY16001"
+    }, {
+      "key" : "bibr32-0269216319865414",
+      "doi-asserted-by" : "publisher",
+      "DOI" : "10.1371/journal.pone.0170168"
+    }, {
+      "key" : "bibr33-0269216319865414",
+      "doi-asserted-by" : "publisher",
+      "DOI" : "10.1136/flgastro-2015-100613"
+    }, {
+      "key" : "bibr34-0269216319865414",
+      "doi-asserted-by" : "publisher",
+      "DOI" : "10.1080/02813432.2016.1249059"
+    }, {
+      "key" : "bibr35-0269216319865414",
+      "doi-asserted-by" : "publisher",
+      "DOI" : "10.1136/bmjspcare-2014-000764"
+    }, {
+      "key" : "bibr36-0269216319865414",
+      "doi-asserted-by" : "publisher",
+      "DOI" : "10.1177/0269216314556565"
+    }, {
+      "key" : "bibr37-0269216319865414",
+      "doi-asserted-by" : "publisher",
+      "DOI" : "10.1177/0269216314528742"
+    }, {
+      "key" : "bibr38-0269216319865414",
+      "doi-asserted-by" : "publisher",
+      "DOI" : "10.1093/jjco/hyt204"
+    }, {
+      "key" : "bibr39-0269216319865414",
+      "first-page" : "36",
+      "volume" : "35",
+      "author" : "Hong TC",
+      "year" : "2013",
+      "journal-title" : "Hong Kong Pract"
+    }, {
+      "key" : "bibr40-0269216319865414",
+      "doi-asserted-by" : "publisher",
+      "DOI" : "10.1136/bmjspcare-2012-000281"
+    }, {
+      "key" : "bibr41-0269216319865414",
+      "doi-asserted-by" : "publisher",
+      "DOI" : "10.1007/s00520-012-1396-9"
+    }, {
+      "key" : "bibr42-0269216319865414",
+      "doi-asserted-by" : "publisher",
+      "DOI" : "10.1186/1472-684X-8-19"
+    }, {
+      "key" : "bibr43-0269216319865414",
+      "doi-asserted-by" : "publisher",
+      "DOI" : "10.1186/1472-684X-8-3"
+    }, {
+      "key" : "bibr44-0269216319865414",
+      "doi-asserted-by" : "publisher",
+      "DOI" : "10.1186/1472-684X-8-13"
+    }, {
+      "key" : "bibr45-0269216319865414",
+      "doi-asserted-by" : "publisher",
+      "DOI" : "10.1089/jpm.2007.0251"
+    }, {
+      "key" : "bibr46-0269216319865414",
+      "doi-asserted-by" : "publisher",
+      "DOI" : "10.1007/s00508-006-0724-9"
+    }, {
+      "key" : "bibr47-0269216319865414",
+      "doi-asserted-by" : "publisher",
+      "DOI" : "10.1177/0269216307083384"
+    }, {
+      "key" : "bibr48-0269216319865414",
+      "doi-asserted-by" : "publisher",
+      "DOI" : "10.1186/s13054-014-0604-z"
+    }, {
+      "key" : "bibr49-0269216319865414",
+      "doi-asserted-by" : "publisher",
+      "DOI" : "10.1111/medu.12292"
+    }, {
+      "key" : "bibr50-0269216319865414",
+      "doi-asserted-by" : "publisher",
+      "DOI" : "10.1016/j.jpainsymman.2017.04.008"
+    }, {
+      "key" : "bibr51-0269216319865414",
+      "doi-asserted-by" : "publisher",
+      "DOI" : "10.1191/0269216305pm937oa"
+    }, {
+      "key" : "bibr52-0269216319865414",
+      "doi-asserted-by" : "publisher",
+      "DOI" : "10.5694/j.1326-5377.2003.tb05575.x"
+    }, {
+      "key" : "bibr53-0269216319865414",
+      "unstructured" : "Australian Department of Health. GP workforce statistics – 2001–02 to 2016–17, http://www.health.gov.au/internet/main/publishing.nsf/Content/General+Practice+Statistics–1 (accessed 11 September 2018)."
+    }, {
+      "key" : "bibr54-0269216319865414",
+      "doi-asserted-by" : "publisher",
+      "DOI" : "10.1089/jpm.2006.9.250"
+    }, {
+      "key" : "bibr55-0269216319865414",
+      "doi-asserted-by" : "publisher",
+      "DOI" : "10.1200/JCO.2013.54.8149"
+    }, {
+      "key" : "bibr56-0269216319865414",
+      "doi-asserted-by" : "publisher",
+      "DOI" : "10.1177/0269216307078503"
+    }, {
+      "key" : "bibr57-0269216319865414",
+      "doi-asserted-by" : "publisher",
+      "DOI" : "10.1016/S0885-3924(02)00599-7"
+    } ],
+    "title" : [ "Systematic review of barriers and enablers to the delivery of palliative care by primary care practitioners" ],
+    "link" : [ {
+      "URL" : "http://journals.sagepub.com/doi/pdf/10.1177/0269216319865414",
+      "content-type" : "application/pdf",
+      "content-version" : "vor",
+      "intended-application" : "text-mining"
+    }, {
+      "URL" : "http://journals.sagepub.com/doi/full-xml/10.1177/0269216319865414",
+      "content-type" : "application/xml",
+      "content-version" : "vor",
+      "intended-application" : "text-mining"
+    }, {
+      "URL" : "http://journals.sagepub.com/doi/pdf/10.1177/0269216319865414",
+      "content-type" : "unspecified",
+      "content-version" : "vor",
+      "intended-application" : "similarity-checking"
+    } ],
+    "source" : "Crossref",
+    "type" : "journal-article",
+    "publisher" : "SAGE Publications",
+    "journal-issue" : {
+      "issue" : "9",
+      "published-print" : {
+        "date-parts" : [ [ 2019, 10 ] ]
+      }
+    },
+    "volume" : "33",
+    "references-count" : 57,
+    "issn-type" : [ {
+      "value" : "0269-2163",
+      "type" : "print"
+    }, {
+      "value" : "1477-030X",
+      "type" : "electronic"
+    } ],
+    "deposited" : {
+      "date-parts" : [ [ 2021, 12, 13 ] ],
+      "date-time" : "2021-12-13T09:53:06Z",
+      "timestamp" : 1639389186000
+    },
+    "language" : "en",
+    "page" : "1131-1145",
+    "short-container-title" : [ "Palliat Med" ]
+  }, {
+    "URL" : "http://dx.doi.org/10.1016/j.ajic.2019.08.007",
+    "resource" : {
+      "primary" : {
+        "URL" : "https://linkinghub.elsevier.com/retrieve/pii/S0196655319307527"
+      }
+    },
+    "member" : "78",
+    "score" : 0.0,
+    "created" : {
+      "date-parts" : [ [ 2019, 9, 5 ] ],
+      "date-time" : "2019-09-05T21:46:30Z",
+      "timestamp" : 1567719990000
+    },
+    "update-policy" : "http://dx.doi.org/10.1016/elsevier_cm_policy",
+    "license" : [ {
+      "start" : {
+        "date-parts" : [ [ 2020, 2, 1 ] ],
+        "date-time" : "2020-02-01T00:00:00Z",
+        "timestamp" : 1580515200000
+      },
+      "content-version" : "tdm",
+      "delay-in-days" : 0,
+      "URL" : "https://www.elsevier.com/tdm/userlicense/1.0/"
+    }, {
+      "start" : {
+        "date-parts" : [ [ 2021, 1, 18 ] ],
+        "date-time" : "2021-01-18T00:00:00Z",
+        "timestamp" : 1610928000000
+      },
+      "content-version" : "am",
+      "delay-in-days" : 352,
+      "URL" : "http://www.elsevier.com/open-access/userlicense/1.0/"
+    } ],
+    "ISSN" : [ "0196-6553" ],
+    "container-title" : [ "American Journal of Infection Control" ],
+    "issued" : {
+      "date-parts" : [ [ 2020, 2 ] ]
+    },
+    "issue" : "2",
+    "prefix" : "10.1016",
+    "reference-count" : 10,
+    "indexed" : {
+      "date-parts" : [ [ 2023, 3, 24 ] ],
+      "date-time" : "2023-03-24T17:29:22Z",
+      "timestamp" : 1679678962958
+    },
+    "author" : [ {
+      "given" : "Carole",
+      "family" : "Lemarié",
+      "sequence" : "first",
+      "affiliation" : [ ]
+    }, {
+      "given" : "Clément",
+      "family" : "Legeay",
+      "sequence" : "additional",
+      "affiliation" : [ ]
+    }, {
+      "given" : "Achille",
+      "family" : "Kouatchet",
+      "sequence" : "additional",
+      "affiliation" : [ ]
+    }, {
+      "ORCID" : "http://orcid.org/0000-0002-9978-6714",
+      "authenticated-orcid" : false,
+      "given" : "Rafael",
+      "family" : "Mahieu",
+      "sequence" : "additional",
+      "affiliation" : [ ]
+    }, {
+      "given" : "Sigismond",
+      "family" : "Lasocki",
+      "sequence" : "additional",
+      "affiliation" : [ ]
+    }, {
+      "given" : "Pamela",
+      "family" : "Holecska",
+      "sequence" : "additional",
+      "affiliation" : [ ]
+    }, {
+      "given" : "Laura",
+      "family" : "Onillon",
+      "sequence" : "additional",
+      "affiliation" : [ ]
+    }, {
+      "given" : "Maxime",
+      "family" : "Corre",
+      "sequence" : "additional",
+      "affiliation" : [ ]
+    }, {
+      "given" : "Marie",
+      "family" : "Kempf",
+      "sequence" : "additional",
+      "affiliation" : [ ]
+    }, {
+      "given" : "Matthieu",
+      "family" : "Eveillard",
+      "sequence" : "additional",
+      "affiliation" : [ ]
+    } ],
+    "DOI" : "10.1016/j.ajic.2019.08.007",
+    "is-referenced-by-count" : 5,
+    "published" : {
+      "date-parts" : [ [ 2020, 2 ] ]
+    },
+    "published-print" : {
+      "date-parts" : [ [ 2020, 2 ] ]
+    },
+    "alternative-id" : [ "S0196655319307527" ],
+    "subject" : [ "Infectious Diseases", "Public Health, Environmental and Occupational Health", "Health Policy", "Epidemiology" ],
+    "content-domain" : {
+      "domain" : [ "clinicalkey.jp", "clinicalkey.com", "ajicjournal.org", "clinicalkey.es", "clinicalkey.fr", "clinicalkey.com.au", "elsevier.com", "sciencedirect.com" ],
+      "crossmark-restriction" : true
+    },
+    "reference" : [ {
+      "doi-asserted-by" : "crossref",
+      "first-page" : "304",
+      "author" : "Amoureux",
+      "key" : "10.1016/j.ajic.2019.08.007_bib0001",
+      "DOI" : "10.3201/eid2302.160649",
+      "article-title" : "Nosocomial infections with IMP-19-producing Pseudomonas aeruginosa linked to contaminated sinks, France",
+      "year" : "2017",
+      "volume" : "23",
+      "journal-title" : "Emerg Infect Dis"
+    }, {
+      "doi-asserted-by" : "crossref",
+      "first-page" : "98",
+      "author" : "Buchan",
+      "key" : "10.1016/j.ajic.2019.08.007_bib0002",
+      "DOI" : "10.1016/j.ajic.2018.06.021",
+      "article-title" : "The relevance of sink proximity to toilets on the detection of Klebsiella pneumoniae carbapenemase inside sink drains",
+      "year" : "2019",
+      "volume" : "47",
+      "journal-title" : "Am J Infect Control"
+    }, {
+      "doi-asserted-by" : "crossref",
+      "first-page" : "106",
+      "author" : "Roux",
+      "key" : "10.1016/j.ajic.2019.08.007_bib0003",
+      "DOI" : "10.1016/j.jhin.2013.07.006",
+      "article-title" : "Contaminated sinks in intensive care units: an underestimated source of extended-spectrum beta-lactamase-producing Enterobacteriaceae in the patient environment",
+      "year" : "2013",
+      "volume" : "85",
+      "journal-title" : "J Hosp Infect"
+    }, {
+      "doi-asserted-by" : "crossref",
+      "first-page" : "1307",
+      "author" : "Regev-Yochay",
+      "key" : "10.1016/j.ajic.2019.08.007_bib0004",
+      "DOI" : "10.1017/ice.2018.235",
+      "article-title" : "Sink traps as the source of transmission of OXA-48-producing Serratia marcescens in an intensive care unit",
+      "year" : "2018",
+      "volume" : "39",
+      "journal-title" : "Infect Control Hosp Epidemiol"
+    }, {
+      "key" : "10.1016/j.ajic.2019.08.007_bib0005",
+      "article-title" : "Droplet- rather than aerosol-mediated dispersion is the primary mechanism of bacterial transmission from contaminated hand-washing sink traps",
+      "volume" : "85?>",
+      "author" : "Kotay",
+      "year" : "2019",
+      "journal-title" : "Appl Environ Microbiol"
+    }, {
+      "doi-asserted-by" : "crossref",
+      "first-page" : "63",
+      "author" : "Aranega-Bou",
+      "key" : "10.1016/j.ajic.2019.08.007_bib0006",
+      "DOI" : "10.1016/j.jhin.2018.12.007",
+      "article-title" : "Carbapenem-resistant Enterobacteriaceae dispersal from sinks is linked to drain position and drainage rates in a laboratory model system",
+      "year" : "2019",
+      "volume" : "102",

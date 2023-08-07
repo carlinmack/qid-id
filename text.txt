@@ -1,0 +1,1379 @@
+<!DOCTYPE html>
+<html lang="en" prefix="hydra: http://www.w3.org/ns/hydra/core# void: http://rdfs.org/ns/void#">
+<head>
+  <meta charset="utf-8">
+  <title>Wikidata | </title>
+  <link rel="shortcut icon" href="assets/favicon.ico">
+  <link rel="stylesheet" href="assets/style.css" />
+  <!-- link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:700italic,400,700|Droid+Sans+Mono" type="text/css" / -->
+  <meta name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1">
+</head>
+<body>
+  <header>
+    <h1><a href="/">Wikidata</a></h1>
+    <figure class="logo">
+      <a href="http://linkeddatafragments.org/"><img src="assets/logo.svg" alt="Linked Data Fragments" /></a>
+    </figure>
+  </header>
+  <main>
+<div resource="https://query.wikidata.org/bigdata/ldf" typeof="void:datasource hydra:Collection">
+<h2><a href="https://query.wikidata.org/bigdata/ldf">Wikidata</a></h2>
+
+<form action="?" method="GET" property="hydra:search" resource="#triplePattern">
+  <fieldset resource="#triplePattern">
+    <legend>Query Wikidata by triple pattern</legend>
+    <ul>
+      <li property="hydra:mapping" resource="#subject">
+        <label for="subject>"
+               about="#subject" property="hydra:variable" lang="">subject</label>
+       <input class="uri" id="subject" name="subject"
+              about="#subject" property="hydra:property" resource="rdf:subject" value="" />
+      </li>
+      <li property="hydra:mapping" resource="#predicate">
+        <label for="predicate>"
+               about="#predicate" property="hydra:variable" lang="">predicate</label>
+       <input class="uri" id="predicate" name="predicate"
+              about="#predicate" property="hydra:property" resource="rdf:predicate" value="http://www.wikidata.org/prop/direct/P356" />
+      </li>
+      <li property="hydra:mapping" resource="#object">
+        <label for="object>"
+               about="#object" property="hydra:variable" lang="">object</label>
+       <input class="uri" id="object" name="object"
+              about="#object" property="hydra:property" resource="rdf:object" value="" />
+      </li>
+    </ul>
+  </fieldset>
+  <p>
+    <input type="submit" value="Find matching triples" />
+  </p>
+</form>
+</div>
+
+<h3>Matches in Wikidata for <em class="pattern"></em></h3>
+
+<div class="counts">
+  Showing triples 1 to 101 of
+  ±
+  <span property="void:triples hydra:totalItems" datatype="xsd:integer" content="28,648,741">28,648,741</span>
+  with <span property="hydra:itemsPerPage" datatype="xsd:integer" content="100">100</span> triples per page.
+ <ul class="links">
+   <li><a href="https://query.wikidata.org/bigdata/ldf?predicate=http%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2FP356&page=2" rel="next" property="hydra:nextPage">next</a></li>
+ </ul>
+</div>
+
+<ul class="triples">
+    <li>
+      <a href="?subject=http%3A%2F%2Fwww.wikidata.org%2Fentity%2FQ99571671">
+        <abbr title="http://www.wikidata.org/entity/Q99571671">
+            Q99571671
+        </abbr>
+      </a>
+      <a href="?predicate=http%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2FP356">
+        <abbr title="http://www.wikidata.org/prop/direct/P356">
+            P356
+        </abbr>
+      </a>
+      <a href="?object=%2210.1136%2FBMJ.M3675%22" resource="http://www.wikidata.org/entity/Q99571671">"10.1136/BMJ.M3675"</a>.
+    </li>
+    <li>
+      <a href="?subject=http%3A%2F%2Fwww.wikidata.org%2Fentity%2FQ28653639">
+        <abbr title="http://www.wikidata.org/entity/Q28653639">
+            Q28653639
+        </abbr>
+      </a>
+      <a href="?predicate=http%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2FP356">
+        <abbr title="http://www.wikidata.org/prop/direct/P356">
+            P356
+        </abbr>
+      </a>
+      <a href="?object=%2210.1515%2FPAC-2015-0305%22" resource="http://www.wikidata.org/entity/Q28653639">"10.1515/PAC-2015-0305"</a>.
+    </li>
+    <li>
+      <a href="?subject=http%3A%2F%2Fwww.wikidata.org%2Fentity%2FQ64159407">
+        <abbr title="http://www.wikidata.org/entity/Q64159407">
+            Q64159407
+        </abbr>
+      </a>
+      <a href="?predicate=http%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2FP356">
+        <abbr title="http://www.wikidata.org/prop/direct/P356">
+            P356
+        </abbr>
+      </a>
+      <a href="?object=%2210.5281%2FZENODO.758080%22" resource="http://www.wikidata.org/entity/Q64159407">"10.5281/ZENODO.758080"</a>.
+    </li>
+    <li>
+      <a href="?subject=http%3A%2F%2Fwww.wikidata.org%2Fentity%2FQ53705033">
+        <abbr title="http://www.wikidata.org/entity/Q53705033">
+            Q53705033
+        </abbr>
+      </a>
+      <a href="?predicate=http%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2FP356">
+        <abbr title="http://www.wikidata.org/prop/direct/P356">
+            P356
+        </abbr>
+      </a>
+      <a href="?object=%2210.6084%2FM9.FIGSHARE.4539889%22" resource="http://www.wikidata.org/entity/Q53705033">"10.6084/M9.FIGSHARE.4539889"</a>.
+    </li>
+    <li>
+      <a href="?subject=http%3A%2F%2Fwww.wikidata.org%2Fentity%2FQ36869250">
+        <abbr title="http://www.wikidata.org/entity/Q36869250">
+            Q36869250
+        </abbr>
+      </a>
+      <a href="?predicate=http%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2FP356">
+        <abbr title="http://www.wikidata.org/prop/direct/P356">
+            P356
+        </abbr>
+      </a>
+      <a href="?object=%2210.1001%2FJAMANEUROL.2014.4103%22" resource="http://www.wikidata.org/entity/Q36869250">"10.1001/JAMANEUROL.2014.4103"</a>.
+    </li>
+    <li>
+      <a href="?subject=http%3A%2F%2Fwww.wikidata.org%2Fentity%2FQ28302115">
+        <abbr title="http://www.wikidata.org/entity/Q28302115">
+            Q28302115
+        </abbr>
+      </a>
+      <a href="?predicate=http%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2FP356">
+        <abbr title="http://www.wikidata.org/prop/direct/P356">
+            P356
+        </abbr>
+      </a>
+      <a href="?object=%2210.1016%2FJ.THERIOGENOLOGY.2010.10.034%22" resource="http://www.wikidata.org/entity/Q28302115">"10.1016/J.THERIOGENOLOGY.2010.10.034"</a>.
+    </li>
+    <li>
+      <a href="?subject=http%3A%2F%2Fwww.wikidata.org%2Fentity%2FQ53952161">
+        <abbr title="http://www.wikidata.org/entity/Q53952161">
+            Q53952161
+        </abbr>
+      </a>
+      <a href="?predicate=http%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2FP356">
+        <abbr title="http://www.wikidata.org/prop/direct/P356">
+            P356
+        </abbr>
+      </a>
+      <a href="?object=%2210.1016%2FJ.ICARUS.2003.07.005%22" resource="http://www.wikidata.org/entity/Q53952161">"10.1016/J.ICARUS.2003.07.005"</a>.
+    </li>
+    <li>
+      <a href="?subject=http%3A%2F%2Fwww.wikidata.org%2Fentity%2FQ106519469">
+        <abbr title="http://www.wikidata.org/entity/Q106519469">
+            Q106519469
+        </abbr>
+      </a>
+      <a href="?predicate=http%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2FP356">
+        <abbr title="http://www.wikidata.org/prop/direct/P356">
+            P356
+        </abbr>
+      </a>
+      <a href="?object=%2210.5281%2FZENODO.3922706%22" resource="http://www.wikidata.org/entity/Q106519469">"10.5281/ZENODO.3922706"</a>.
+    </li>
+    <li>
+      <a href="?subject=http%3A%2F%2Fwww.wikidata.org%2Fentity%2FQ59757">
+        <abbr title="http://www.wikidata.org/entity/Q59757">
+            Q59757
+        </abbr>
+      </a>
+      <a href="?predicate=http%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2FP356">
+        <abbr title="http://www.wikidata.org/prop/direct/P356">
+            P356
+        </abbr>
+      </a>
+      <a href="?object=%2210.1002%2F(ISSN)1097-0029%22" resource="http://www.wikidata.org/entity/Q59757">"10.1002/(ISSN)1097-0029"</a>.
+    </li>
+    <li>
+      <a href="?subject=http%3A%2F%2Fwww.wikidata.org%2Fentity%2FQ59755">
+        <abbr title="http://www.wikidata.org/entity/Q59755">
+            Q59755
+        </abbr>
+      </a>
+      <a href="?predicate=http%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2FP356">
+        <abbr title="http://www.wikidata.org/prop/direct/P356">
+            P356
+        </abbr>
+      </a>
+      <a href="?object=%2210.1002%2F(ISSN)1098-2353%22" resource="http://www.wikidata.org/entity/Q59755">"10.1002/(ISSN)1098-2353"</a>.
+    </li>
+    <li>
+      <a href="?subject=http%3A%2F%2Fwww.wikidata.org%2Fentity%2FQ56445932">
+        <abbr title="http://www.wikidata.org/entity/Q56445932">
+            Q56445932
+        </abbr>
+      </a>
+      <a href="?predicate=http%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2FP356">
+        <abbr title="http://www.wikidata.org/prop/direct/P356">
+            P356
+        </abbr>
+      </a>
+      <a href="?object=%2210.1016%2FS0012-365X(98)00332-X%22" resource="http://www.wikidata.org/entity/Q56445932">"10.1016/S0012-365X(98)00332-X"</a>.
+    </li>
+    <li>
+      <a href="?subject=http%3A%2F%2Fwww.wikidata.org%2Fentity%2FQ59927171">
+        <abbr title="http://www.wikidata.org/entity/Q59927171">
+            Q59927171
+        </abbr>
+      </a>
+      <a href="?predicate=http%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2FP356">
+        <abbr title="http://www.wikidata.org/prop/direct/P356">
+            P356
+        </abbr>
+      </a>
+      <a href="?object=%2210.1038%2F480437A%22" resource="http://www.wikidata.org/entity/Q59927171">"10.1038/480437A"</a>.
+    </li>
+    <li>
+      <a href="?subject=http%3A%2F%2Fwww.wikidata.org%2Fentity%2FQ56213500">
+        <abbr title="http://www.wikidata.org/entity/Q56213500">
+            Q56213500
+        </abbr>
+      </a>
+      <a href="?predicate=http%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2FP356">
+        <abbr title="http://www.wikidata.org/prop/direct/P356">
+            P356
+        </abbr>
+      </a>
+      <a href="?object=%2210.1093%2FQMATH%2F12.1.313%22" resource="http://www.wikidata.org/entity/Q56213500">"10.1093/QMATH/12.1.313"</a>.
+    </li>
+    <li>
+      <a href="?subject=http%3A%2F%2Fwww.wikidata.org%2Fentity%2FQ86707337">
+        <abbr title="http://www.wikidata.org/entity/Q86707337">
+            Q86707337
+        </abbr>
+      </a>
+      <a href="?predicate=http%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2FP356">
+        <abbr title="http://www.wikidata.org/prop/direct/P356">
+            P356
+        </abbr>
+      </a>
+      <a href="?object=%2210.1007%2FBF01706857%22" resource="http://www.wikidata.org/entity/Q86707337">"10.1007/BF01706857"</a>.
+    </li>
+    <li>
+      <a href="?subject=http%3A%2F%2Fwww.wikidata.org%2Fentity%2FQ106072013">
+        <abbr title="http://www.wikidata.org/entity/Q106072013">
+            Q106072013
+        </abbr>
+      </a>
+      <a href="?predicate=http%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2FP356">
+        <abbr title="http://www.wikidata.org/prop/direct/P356">
+            P356
+        </abbr>
+      </a>
+      <a href="?object=%2210.2307%2F2322420%22" resource="http://www.wikidata.org/entity/Q106072013">"10.2307/2322420"</a>.
+    </li>
+    <li>
+      <a href="?subject=http%3A%2F%2Fwww.wikidata.org%2Fentity%2FQ106018780">
+        <abbr title="http://www.wikidata.org/entity/Q106018780">
+            Q106018780
+        </abbr>
+      </a>
+      <a href="?predicate=http%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2FP356">
+        <abbr title="http://www.wikidata.org/prop/direct/P356">
+            P356
+        </abbr>
+      </a>
+      <a href="?object=%2210.4064%2FCM-8-1-19-21%22" resource="http://www.wikidata.org/entity/Q106018780">"10.4064/CM-8-1-19-21"</a>.
+    </li>
+    <li>
+      <a href="?subject=http%3A%2F%2Fwww.wikidata.org%2Fentity%2FQ28828982">
+        <abbr title="http://www.wikidata.org/entity/Q28828982">
+            Q28828982
+        </abbr>
+      </a>
+      <a href="?predicate=http%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2FP356">
+        <abbr title="http://www.wikidata.org/prop/direct/P356">
+            P356
+        </abbr>
+      </a>
+      <a href="?object=%2210.7554%2FELIFE.17756%22" resource="http://www.wikidata.org/entity/Q28828982">"10.7554/ELIFE.17756"</a>.
+    </li>
+    <li>
+      <a href="?subject=http%3A%2F%2Fwww.wikidata.org%2Fentity%2FQ127755">
+        <abbr title="http://www.wikidata.org/entity/Q127755">
+            Q127755
+        </abbr>
+      </a>
+      <a href="?predicate=http%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2FP356">
+        <abbr title="http://www.wikidata.org/prop/direct/P356">
+            P356
+        </abbr>
+      </a>
+      <a href="?object=%2210.1002%2F(ISSN)1099-128X%22" resource="http://www.wikidata.org/entity/Q127755">"10.1002/(ISSN)1099-128X"</a>.
+    </li>
+    <li>
+      <a href="?subject=http%3A%2F%2Fwww.wikidata.org%2Fentity%2FQ29398040">
+        <abbr title="http://www.wikidata.org/entity/Q29398040">
+            Q29398040
+        </abbr>
+      </a>
+      <a href="?predicate=http%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2FP356">
+        <abbr title="http://www.wikidata.org/prop/direct/P356">
+            P356
+        </abbr>
+      </a>
+      <a href="?object=%2210.1177%2F096834450100800204%22" resource="http://www.wikidata.org/entity/Q29398040">"10.1177/096834450100800204"</a>.
+    </li>
+    <li>
+      <a href="?subject=http%3A%2F%2Fwww.wikidata.org%2Fentity%2FQ60407307">
+        <abbr title="http://www.wikidata.org/entity/Q60407307">
+            Q60407307
+        </abbr>
+      </a>
+      <a href="?predicate=http%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2FP356">
+        <abbr title="http://www.wikidata.org/prop/direct/P356">
+            P356
+        </abbr>
+      </a>
+      <a href="?object=%2210.30970%2FSBI.0602.208%22" resource="http://www.wikidata.org/entity/Q60407307">"10.30970/SBI.0602.208"</a>.
+    </li>
+    <li>
+      <a href="?subject=http%3A%2F%2Fwww.wikidata.org%2Fentity%2FQ186776">
+        <abbr title="http://www.wikidata.org/entity/Q186776">
+            Q186776
+        </abbr>
+      </a>
+      <a href="?predicate=http%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2FP356">
+        <abbr title="http://www.wikidata.org/prop/direct/P356">
+            P356
+        </abbr>
+      </a>
+      <a href="?object=%2210.1002%2F(ISSN)1521-3749%22" resource="http://www.wikidata.org/entity/Q186776">"10.1002/(ISSN)1521-3749"</a>.
+    </li>
+    <li>
+      <a href="?subject=http%3A%2F%2Fwww.wikidata.org%2Fentity%2FQ102704496">
+        <abbr title="http://www.wikidata.org/entity/Q102704496">
+            Q102704496
+        </abbr>
+      </a>
+      <a href="?predicate=http%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2FP356">
+        <abbr title="http://www.wikidata.org/prop/direct/P356">
+            P356
+        </abbr>
+      </a>
+      <a href="?object=%2210.1090%2FS0002-9904-1949-09203-0%22" resource="http://www.wikidata.org/entity/Q102704496">"10.1090/S0002-9904-1949-09203-0"</a>.
+    </li>
+    <li>
+      <a href="?subject=http%3A%2F%2Fwww.wikidata.org%2Fentity%2FQ29013687">
+        <abbr title="http://www.wikidata.org/entity/Q29013687">
+            Q29013687
+        </abbr>
+      </a>
+      <a href="?predicate=http%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2FP356">
+        <abbr title="http://www.wikidata.org/prop/direct/P356">
+            P356
+        </abbr>
+      </a>
+      <a href="?object=%2210.1107%2FS0567740872003322%22" resource="http://www.wikidata.org/entity/Q29013687">"10.1107/S0567740872003322"</a>.
+    </li>
+    <li>
+      <a href="?subject=http%3A%2F%2Fwww.wikidata.org%2Fentity%2FQ59701018">
+        <abbr title="http://www.wikidata.org/entity/Q59701018">
+            Q59701018
+        </abbr>
+      </a>
+      <a href="?predicate=http%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2FP356">
+        <abbr title="http://www.wikidata.org/prop/direct/P356">
+            P356
+        </abbr>
+      </a>
+      <a href="?object=%2210.2307%2F1968803%22" resource="http://www.wikidata.org/entity/Q59701018">"10.2307/1968803"</a>.
+    </li>
+    <li>
+      <a href="?subject=http%3A%2F%2Fwww.wikidata.org%2Fentity%2FQ56485511">
+        <abbr title="http://www.wikidata.org/entity/Q56485511">
+            Q56485511
+        </abbr>
+      </a>
+      <a href="?predicate=http%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2FP356">
+        <abbr title="http://www.wikidata.org/prop/direct/P356">
+            P356
+        </abbr>
+      </a>
+      <a href="?object=%2210.1093%2FGMO%2F9781561592630.ARTICLE.22402%22" resource="http://www.wikidata.org/entity/Q56485511">"10.1093/GMO/9781561592630.ARTICLE.22402"</a>.
+    </li>
+    <li>
+      <a href="?subject=http%3A%2F%2Fwww.wikidata.org%2Fentity%2FQ56112896">
+        <abbr title="http://www.wikidata.org/entity/Q56112896">
+            Q56112896
+        </abbr>
+      </a>
+      <a href="?predicate=http%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2FP356">
+        <abbr title="http://www.wikidata.org/prop/direct/P356">
+            P356
+        </abbr>
+      </a>
+      <a href="?object=%2210.1093%2FGMO%2F9781561592630.ARTICLE.40704%22" resource="http://www.wikidata.org/entity/Q56112896">"10.1093/GMO/9781561592630.ARTICLE.40704"</a>.
+    </li>
+    <li>
+      <a href="?subject=http%3A%2F%2Fwww.wikidata.org%2Fentity%2FQ58863906">
+        <abbr title="http://www.wikidata.org/entity/Q58863906">
+            Q58863906
+        </abbr>
+      </a>
+      <a href="?predicate=http%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2FP356">
+        <abbr title="http://www.wikidata.org/prop/direct/P356">
+            P356
+        </abbr>
+      </a>
+      <a href="?object=%2210.1016%2FJ.FOODCHEM.2007.03.052%22" resource="http://www.wikidata.org/entity/Q58863906">"10.1016/J.FOODCHEM.2007.03.052"</a>.
+    </li>
+    <li>
+      <a href="?subject=http%3A%2F%2Fwww.wikidata.org%2Fentity%2FQ62608876">
+        <abbr title="http://www.wikidata.org/entity/Q62608876">
+            Q62608876
+        </abbr>
+      </a>
+      <a href="?predicate=http%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2FP356">
+        <abbr title="http://www.wikidata.org/prop/direct/P356">
+            P356
+        </abbr>
+      </a>
+      <a href="?object=%2210.1016%2FS0308-8146(01)00229-1%22" resource="http://www.wikidata.org/entity/Q62608876">"10.1016/S0308-8146(01)00229-1"</a>.
+    </li>
+    <li>
+      <a href="?subject=http%3A%2F%2Fwww.wikidata.org%2Fentity%2FQ33883775">
+        <abbr title="http://www.wikidata.org/entity/Q33883775">
+            Q33883775
+        </abbr>
+      </a>
+      <a href="?predicate=http%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2FP356">
+        <abbr title="http://www.wikidata.org/prop/direct/P356">
+            P356
+        </abbr>
+      </a>
+      <a href="?object=%2210.1186%2FS12862-017-0958-3%22" resource="http://www.wikidata.org/entity/Q33883775">"10.1186/S12862-017-0958-3"</a>.
+    </li>
+    <li>
+      <a href="?subject=http%3A%2F%2Fwww.wikidata.org%2Fentity%2FQ326141">
+        <abbr title="http://www.wikidata.org/entity/Q326141">
+            Q326141
+        </abbr>
+      </a>
+      <a href="?predicate=http%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2FP356">
+        <abbr title="http://www.wikidata.org/prop/direct/P356">
+            P356
+        </abbr>
+      </a>
+      <a href="?object=%2210.3322%2F(ISSN)1542-4863%22" resource="http://www.wikidata.org/entity/Q326141">"10.3322/(ISSN)1542-4863"</a>.
+    </li>
+    <li>
+      <a href="?subject=http%3A%2F%2Fwww.wikidata.org%2Fentity%2FQ103931955">
+        <abbr title="http://www.wikidata.org/entity/Q103931955">
+            Q103931955
+        </abbr>
+      </a>
+      <a href="?predicate=http%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2FP356">
+        <abbr title="http://www.wikidata.org/prop/direct/P356">
+            P356
+        </abbr>
+      </a>
+      <a href="?object=%2210.1093%2FGAO%2F9781884446054.ARTICLE.T037764%22" resource="http://www.wikidata.org/entity/Q103931955">"10.1093/GAO/9781884446054.ARTICLE.T037764"</a>.
+    </li>
+    <li>
+      <a href="?subject=http%3A%2F%2Fwww.wikidata.org%2Fentity%2FQ41740375">
+        <abbr title="http://www.wikidata.org/entity/Q41740375">
+            Q41740375
+        </abbr>
+      </a>
+      <a href="?predicate=http%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2FP356">
+        <abbr title="http://www.wikidata.org/prop/direct/P356">
+            P356
+        </abbr>
+      </a>
+      <a href="?object=%2210.7554%2FELIFE.17721%22" resource="http://www.wikidata.org/entity/Q41740375">"10.7554/ELIFE.17721"</a>.
+    </li>
+    <li>
+      <a href="?subject=http%3A%2F%2Fwww.wikidata.org%2Fentity%2FQ103863371">
+        <abbr title="http://www.wikidata.org/entity/Q103863371">
+            Q103863371
+        </abbr>
+      </a>
+      <a href="?predicate=http%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2FP356">
+        <abbr title="http://www.wikidata.org/prop/direct/P356">
+            P356
+        </abbr>
+      </a>
+      <a href="?object=%2210.1093%2FANB%2F9780198606697.ARTICLE.0300223%22" resource="http://www.wikidata.org/entity/Q103863371">"10.1093/ANB/9780198606697.ARTICLE.0300223"</a>.
+    </li>
+    <li>
+      <a href="?subject=http%3A%2F%2Fwww.wikidata.org%2Fentity%2FQ103863352">
+        <abbr title="http://www.wikidata.org/entity/Q103863352">
+            Q103863352
+        </abbr>
+      </a>
+      <a href="?predicate=http%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2FP356">
+        <abbr title="http://www.wikidata.org/prop/direct/P356">
+            P356
+        </abbr>
+      </a>
+      <a href="?object=%2210.1093%2FANB%2F9780198606697.ARTICLE.1100431%22" resource="http://www.wikidata.org/entity/Q103863352">"10.1093/ANB/9780198606697.ARTICLE.1100431"</a>.
+    </li>
+    <li>
+      <a href="?subject=http%3A%2F%2Fwww.wikidata.org%2Fentity%2FQ95691011">
+        <abbr title="http://www.wikidata.org/entity/Q95691011">
+            Q95691011
+        </abbr>
+      </a>
+      <a href="?predicate=http%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2FP356">
+        <abbr title="http://www.wikidata.org/prop/direct/P356">
+            P356
+        </abbr>
+      </a>
+      <a href="?object=%2210.6084%2FM9.FIGSHARE.11961063%22" resource="http://www.wikidata.org/entity/Q95691011">"10.6084/M9.FIGSHARE.11961063"</a>.
+    </li>
+    <li>
+      <a href="?subject=http%3A%2F%2Fwww.wikidata.org%2Fentity%2FQ697945">
+        <abbr title="http://www.wikidata.org/entity/Q697945">
+            Q697945
+        </abbr>
+      </a>
+      <a href="?predicate=http%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2FP356">
+        <abbr title="http://www.wikidata.org/prop/direct/P356">
+            P356
+        </abbr>
+      </a>
+      <a href="?object=%2210.1002%2F(ISSN)1521-3994%22" resource="http://www.wikidata.org/entity/Q697945">"10.1002/(ISSN)1521-3994"</a>.
+    </li>
+    <li>
+      <a href="?subject=http%3A%2F%2Fwww.wikidata.org%2Fentity%2FQ33298356">
+        <abbr title="http://www.wikidata.org/entity/Q33298356">
+            Q33298356
+        </abbr>
+      </a>
+      <a href="?predicate=http%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2FP356">
+        <abbr title="http://www.wikidata.org/prop/direct/P356">
+            P356
+        </abbr>
+      </a>
+      <a href="?object=%2210.1126%2FSCIENCE.97.2524.434%22" resource="http://www.wikidata.org/entity/Q33298356">"10.1126/SCIENCE.97.2524.434"</a>.
+    </li>
+    <li>
+      <a href="?subject=http%3A%2F%2Fwww.wikidata.org%2Fentity%2FQ21296659">
+        <abbr title="http://www.wikidata.org/entity/Q21296659">
+            Q21296659
+        </abbr>
+      </a>
+      <a href="?predicate=http%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2FP356">
+        <abbr title="http://www.wikidata.org/prop/direct/P356">
+            P356
+        </abbr>
+      </a>
+      <a href="?object=%2210.1155%2F2012%2F351864%22" resource="http://www.wikidata.org/entity/Q21296659">"10.1155/2012/351864"</a>.
+    </li>
+    <li>
+      <a href="?subject=http%3A%2F%2Fwww.wikidata.org%2Fentity%2FQ28276895">
+        <abbr title="http://www.wikidata.org/entity/Q28276895">
+            Q28276895
+        </abbr>
+      </a>
+      <a href="?predicate=http%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2FP356">
+        <abbr title="http://www.wikidata.org/prop/direct/P356">
+            P356
+        </abbr>
+      </a>
+      <a href="?object=%2210.3389%2FFENDO.2016.00057%22" resource="http://www.wikidata.org/entity/Q28276895">"10.3389/FENDO.2016.00057"</a>.
+    </li>
+    <li>
+      <a href="?subject=http%3A%2F%2Fwww.wikidata.org%2Fentity%2FQ103927111">
+        <abbr title="http://www.wikidata.org/entity/Q103927111">
+            Q103927111
+        </abbr>
+      </a>
+      <a href="?predicate=http%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2FP356">
+        <abbr title="http://www.wikidata.org/prop/direct/P356">
+            P356
+        </abbr>
+      </a>
+      <a href="?object=%2210.1093%2FGAO%2F9781884446054.ARTICLE.T032919%22" resource="http://www.wikidata.org/entity/Q103927111">"10.1093/GAO/9781884446054.ARTICLE.T032919"</a>.
+    </li>
+    <li>
+      <a href="?subject=http%3A%2F%2Fwww.wikidata.org%2Fentity%2FQ769913">
+        <abbr title="http://www.wikidata.org/entity/Q769913">
+            Q769913
+        </abbr>
+      </a>
+      <a href="?predicate=http%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2FP356">
+        <abbr title="http://www.wikidata.org/prop/direct/P356">
+            P356
+        </abbr>
+      </a>
+      <a href="?object=%2210.1098%2FRSTB.1952.0012%22" resource="http://www.wikidata.org/entity/Q769913">"10.1098/RSTB.1952.0012"</a>.
+    </li>
+    <li>
+      <a href="?subject=http%3A%2F%2Fwww.wikidata.org%2Fentity%2FQ781205">
+        <abbr title="http://www.wikidata.org/entity/Q781205">
+            Q781205
+        </abbr>
+      </a>
+      <a href="?predicate=http%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2FP356">
+        <abbr title="http://www.wikidata.org/prop/direct/P356">
+            P356
+        </abbr>
+      </a>
+      <a href="?object=%2210.1111%2F(ISSN)1442-9993%22" resource="http://www.wikidata.org/entity/Q781205">"10.1111/(ISSN)1442-9993"</a>.
+    </li>
+    <li>
+      <a href="?subject=http%3A%2F%2Fwww.wikidata.org%2Fentity%2FQ762851">
+        <abbr title="http://www.wikidata.org/entity/Q762851">
+            Q762851
+        </abbr>
+      </a>
+      <a href="?predicate=http%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2FP356">
+        <abbr title="http://www.wikidata.org/prop/direct/P356">
+            P356
+        </abbr>
+      </a>
+      <a href="?object=%2210.1111%2F(ISSN)1755-148X%22" resource="http://www.wikidata.org/entity/Q762851">"10.1111/(ISSN)1755-148X"</a>.
+    </li>
+    <li>
+      <a href="?subject=http%3A%2F%2Fwww.wikidata.org%2Fentity%2FQ60163929">
+        <abbr title="http://www.wikidata.org/entity/Q60163929">
+            Q60163929
+        </abbr>
+      </a>
+      <a href="?predicate=http%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2FP356">
+        <abbr title="http://www.wikidata.org/prop/direct/P356">
+            P356
+        </abbr>
+      </a>
+      <a href="?object=%2210.1111%2FJ.1466-7657.2004.00412_5.X%22" resource="http://www.wikidata.org/entity/Q60163929">"10.1111/J.1466-7657.2004.00412_5.X"</a>.
+    </li>
+    <li>
+      <a href="?subject=http%3A%2F%2Fwww.wikidata.org%2Fentity%2FQ854859">
+        <abbr title="http://www.wikidata.org/entity/Q854859">
+            Q854859
+        </abbr>
+      </a>
+      <a href="?predicate=http%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2FP356">
+        <abbr title="http://www.wikidata.org/prop/direct/P356">
+            P356
+        </abbr>
+      </a>
+      <a href="?object=%2210.5962%2FBHL.TITLE.16634%22" resource="http://www.wikidata.org/entity/Q854859">"10.5962/BHL.TITLE.16634"</a>.
+    </li>
+    <li>
+      <a href="?subject=http%3A%2F%2Fwww.wikidata.org%2Fentity%2FQ56805638">
+        <abbr title="http://www.wikidata.org/entity/Q56805638">
+            Q56805638
+        </abbr>
+      </a>
+      <a href="?predicate=http%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2FP356">
+        <abbr title="http://www.wikidata.org/prop/direct/P356">
+            P356
+        </abbr>
+      </a>
+      <a href="?object=%2210.1093%2FEJIL%2F11.4.877%22" resource="http://www.wikidata.org/entity/Q56805638">"10.1093/EJIL/11.4.877"</a>.
+    </li>
+    <li>
+      <a href="?subject=http%3A%2F%2Fwww.wikidata.org%2Fentity%2FQ59346046">
+        <abbr title="http://www.wikidata.org/entity/Q59346046">
+            Q59346046
+        </abbr>
+      </a>
+      <a href="?predicate=http%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2FP356">
+        <abbr title="http://www.wikidata.org/prop/direct/P356">
+            P356
+        </abbr>
+      </a>
+      <a href="?object=%2210.1093%2FGMO%2F9781561592630.ARTICLE.J457900%22" resource="http://www.wikidata.org/entity/Q59346046">"10.1093/GMO/9781561592630.ARTICLE.J457900"</a>.
+    </li>
+    <li>
+      <a href="?subject=http%3A%2F%2Fwww.wikidata.org%2Fentity%2FQ56428636">
+        <abbr title="http://www.wikidata.org/entity/Q56428636">
+            Q56428636
+        </abbr>
+      </a>
+      <a href="?predicate=http%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2FP356">
+        <abbr title="http://www.wikidata.org/prop/direct/P356">
+            P356
+        </abbr>
+      </a>
+      <a href="?object=%2210.1093%2FGMO%2F9781561592630.ARTICLE.14000%22" resource="http://www.wikidata.org/entity/Q56428636">"10.1093/GMO/9781561592630.ARTICLE.14000"</a>.
+    </li>
+    <li>
+      <a href="?subject=http%3A%2F%2Fwww.wikidata.org%2Fentity%2FQ52655981">
+        <abbr title="http://www.wikidata.org/entity/Q52655981">
+            Q52655981
+        </abbr>
+      </a>
+      <a href="?predicate=http%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2FP356">
+        <abbr title="http://www.wikidata.org/prop/direct/P356">
+            P356
+        </abbr>
+      </a>
+      <a href="?object=%2210.1371%2FJOURNAL.PONE.0192766%22" resource="http://www.wikidata.org/entity/Q52655981">"10.1371/JOURNAL.PONE.0192766"</a>.
+    </li>
+    <li>
+      <a href="?subject=http%3A%2F%2Fwww.wikidata.org%2Fentity%2FQ1053345">
+        <abbr title="http://www.wikidata.org/entity/Q1053345">
+            Q1053345
+        </abbr>
+      </a>
+      <a href="?predicate=http%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2FP356">
+        <abbr title="http://www.wikidata.org/prop/direct/P356">
+            P356
+        </abbr>
+      </a>
+      <a href="?object=%2210.1002%2FJ.1538-7305.1949.TB00928.X%22" resource="http://www.wikidata.org/entity/Q1053345">"10.1002/J.1538-7305.1949.TB00928.X"</a>.
+    </li>
+    <li>
+      <a href="?subject=http%3A%2F%2Fwww.wikidata.org%2Fentity%2FQ1085159">
+        <abbr title="http://www.wikidata.org/entity/Q1085159">
+            Q1085159
+        </abbr>
+      </a>
+      <a href="?predicate=http%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2FP356">
+        <abbr title="http://www.wikidata.org/prop/direct/P356">
+            P356
+        </abbr>
+      </a>
+      <a href="?object=%2210.1002%2F(ISSN)1521-4095%22" resource="http://www.wikidata.org/entity/Q1085159">"10.1002/(ISSN)1521-4095"</a>.
+    </li>
+    <li>
+      <a href="?subject=http%3A%2F%2Fwww.wikidata.org%2Fentity%2FQ68431998">
+        <abbr title="http://www.wikidata.org/entity/Q68431998">
+            Q68431998
+        </abbr>
+      </a>
+      <a href="?predicate=http%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2FP356">
+        <abbr title="http://www.wikidata.org/prop/direct/P356">
+            P356
+        </abbr>
+      </a>
+      <a href="?object=%2210.1002%2FJ.2048-7940.1990.TB01505.X%22" resource="http://www.wikidata.org/entity/Q68431998">"10.1002/J.2048-7940.1990.TB01505.X"</a>.
+    </li>
+    <li>
+      <a href="?subject=http%3A%2F%2Fwww.wikidata.org%2Fentity%2FQ67902069">
+        <abbr title="http://www.wikidata.org/entity/Q67902069">
+            Q67902069
+        </abbr>
+      </a>
+      <a href="?predicate=http%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2FP356">
+        <abbr title="http://www.wikidata.org/prop/direct/P356">
+            P356
+        </abbr>
+      </a>
+      <a href="?object=%2210.1097%2F00002060-199108000-00013%22" resource="http://www.wikidata.org/entity/Q67902069">"10.1097/00002060-199108000-00013"</a>.
+    </li>
+    <li>
+      <a href="?subject=http%3A%2F%2Fwww.wikidata.org%2Fentity%2FQ1131652">
+        <abbr title="http://www.wikidata.org/entity/Q1131652">
+            Q1131652
+        </abbr>
+      </a>
+      <a href="?predicate=http%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2FP356">
+        <abbr title="http://www.wikidata.org/prop/direct/P356">
+            P356
+        </abbr>
+      </a>
+      <a href="?object=%2210.5281%2FZENODO.1003420%22" resource="http://www.wikidata.org/entity/Q1131652">"10.5281/ZENODO.1003420"</a>.
+    </li>
+    <li>
+      <a href="?subject=http%3A%2F%2Fwww.wikidata.org%2Fentity%2FQ951059">
+        <abbr title="http://www.wikidata.org/entity/Q951059">
+            Q951059
+        </abbr>
+      </a>
+      <a href="?predicate=http%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2FP356">
+        <abbr title="http://www.wikidata.org/prop/direct/P356">
+            P356
+        </abbr>
+      </a>
+      <a href="?object=%2210.1109%2FIEEESTD.2008.4610935%22" resource="http://www.wikidata.org/entity/Q951059">"10.1109/IEEESTD.2008.4610935"</a>.
+    </li>
+    <li>
+      <a href="?subject=http%3A%2F%2Fwww.wikidata.org%2Fentity%2FQ1259516">
+        <abbr title="http://www.wikidata.org/entity/Q1259516">
+            Q1259516
+        </abbr>
+      </a>
+      <a href="?predicate=http%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2FP356">
+        <abbr title="http://www.wikidata.org/prop/direct/P356">
+            P356
+        </abbr>
+      </a>
+      <a href="?object=%2210.1111%2F(ISSN)1600-0587%22" resource="http://www.wikidata.org/entity/Q1259516">"10.1111/(ISSN)1600-0587"</a>.
+    </li>
+    <li>
+      <a href="?subject=http%3A%2F%2Fwww.wikidata.org%2Fentity%2FQ1254604">
+        <abbr title="http://www.wikidata.org/entity/Q1254604">
+            Q1254604
+        </abbr>
+      </a>
+      <a href="?predicate=http%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2FP356">
+        <abbr title="http://www.wikidata.org/prop/direct/P356">
+            P356
+        </abbr>
+      </a>
+      <a href="?object=%2210.1111%2F(ISSN)1768-322X%22" resource="http://www.wikidata.org/entity/Q1254604">"10.1111/(ISSN)1768-322X"</a>.
+    </li>
+    <li>
+      <a href="?subject=http%3A%2F%2Fwww.wikidata.org%2Fentity%2FQ1261982">
+        <abbr title="http://www.wikidata.org/entity/Q1261982">
+            Q1261982
+        </abbr>
+      </a>
+      <a href="?predicate=http%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2FP356">
+        <abbr title="http://www.wikidata.org/prop/direct/P356">
+            P356
+        </abbr>
+      </a>
+      <a href="?object=%2210.1163%2F9789004337862_LGBO_COM_190009%22" resource="http://www.wikidata.org/entity/Q1261982">"10.1163/9789004337862_LGBO_COM_190009"</a>.
+    </li>
+    <li>
+      <a href="?subject=http%3A%2F%2Fwww.wikidata.org%2Fentity%2FQ105942379">
+        <abbr title="http://www.wikidata.org/entity/Q105942379">
+            Q105942379
+        </abbr>
+      </a>
+      <a href="?predicate=http%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2FP356">
+        <abbr title="http://www.wikidata.org/prop/direct/P356">
+            P356
+        </abbr>
+      </a>
+      <a href="?object=%2210.2307%2F2005464%22" resource="http://www.wikidata.org/entity/Q105942379">"10.2307/2005464"</a>.
+    </li>
+    <li>
+      <a href="?subject=http%3A%2F%2Fwww.wikidata.org%2Fentity%2FQ1277520">
+        <abbr title="http://www.wikidata.org/entity/Q1277520">
+            Q1277520
+        </abbr>
+      </a>
+      <a href="?predicate=http%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2FP356">
+        <abbr title="http://www.wikidata.org/prop/direct/P356">
+            P356
+        </abbr>
+      </a>
+      <a href="?object=%2210.1111%2F(ISSN)1468-0254%22" resource="http://www.wikidata.org/entity/Q1277520">"10.1111/(ISSN)1468-0254"</a>.
+    </li>
+    <li>
+      <a href="?subject=http%3A%2F%2Fwww.wikidata.org%2Fentity%2FQ104454515">
+        <abbr title="http://www.wikidata.org/entity/Q104454515">
+            Q104454515
+        </abbr>
+      </a>
+      <a href="?predicate=http%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2FP356">
+        <abbr title="http://www.wikidata.org/prop/direct/P356">
+            P356
+        </abbr>
+      </a>
+      <a href="?object=%2210.1093%2FISD%2FIXZ024%22" resource="http://www.wikidata.org/entity/Q104454515">"10.1093/ISD/IXZ024"</a>.
+    </li>
+    <li>
+      <a href="?subject=http%3A%2F%2Fwww.wikidata.org%2Fentity%2FQ1486418">
+        <abbr title="http://www.wikidata.org/entity/Q1486418">
+            Q1486418
+        </abbr>
+      </a>
+      <a href="?predicate=http%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2FP356">
+        <abbr title="http://www.wikidata.org/prop/direct/P356">
+            P356
+        </abbr>
+      </a>
+      <a href="?object=%2210.1002%2F(ISSN)1531-8257%22" resource="http://www.wikidata.org/entity/Q1486418">"10.1002/(ISSN)1531-8257"</a>.
+    </li>
+    <li>
+      <a href="?subject=http%3A%2F%2Fwww.wikidata.org%2Fentity%2FQ1535447">
+        <abbr title="http://www.wikidata.org/entity/Q1535447">
+            Q1535447
+        </abbr>
+      </a>
+      <a href="?predicate=http%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2FP356">
+        <abbr title="http://www.wikidata.org/prop/direct/P356">
+            P356
+        </abbr>
+      </a>
+      <a href="?object=%2210.5076%2FE-CODICES-CSG-0022%22" resource="http://www.wikidata.org/entity/Q1535447">"10.5076/E-CODICES-CSG-0022"</a>.
+    </li>
+    <li>
+      <a href="?subject=http%3A%2F%2Fwww.wikidata.org%2Fentity%2FQ57310704">
+        <abbr title="http://www.wikidata.org/entity/Q57310704">
+            Q57310704
+        </abbr>
+      </a>
+      <a href="?predicate=http%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2FP356">
+        <abbr title="http://www.wikidata.org/prop/direct/P356">
+            P356
+        </abbr>
+      </a>
+      <a href="?object=%2210.1086%2F107684%22" resource="http://www.wikidata.org/entity/Q57310704">"10.1086/107684"</a>.
+    </li>
+    <li>
+      <a href="?subject=http%3A%2F%2Fwww.wikidata.org%2Fentity%2FQ103961754">
+        <abbr title="http://www.wikidata.org/entity/Q103961754">
+            Q103961754
+        </abbr>
+      </a>
+      <a href="?predicate=http%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2FP356">
+        <abbr title="http://www.wikidata.org/prop/direct/P356">
+            P356
+        </abbr>
+      </a>
+      <a href="?object=%2210.1093%2FGAO%2F9781884446054.ARTICLE.T067400%22" resource="http://www.wikidata.org/entity/Q103961754">"10.1093/GAO/9781884446054.ARTICLE.T067400"</a>.
+    </li>
+    <li>
+      <a href="?subject=http%3A%2F%2Fwww.wikidata.org%2Fentity%2FQ1666662">
+        <abbr title="http://www.wikidata.org/entity/Q1666662">
+            Q1666662
+        </abbr>
+      </a>
+      <a href="?predicate=http%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2FP356">
+        <abbr title="http://www.wikidata.org/prop/direct/P356">
+            P356
+        </abbr>
+      </a>
+      <a href="?object=%2210.1111%2F(ISSN)1474-919X%22" resource="http://www.wikidata.org/entity/Q1666662">"10.1111/(ISSN)1474-919X"</a>.
+    </li>
+    <li>
+      <a href="?subject=http%3A%2F%2Fwww.wikidata.org%2Fentity%2FQ1709830">
+        <abbr title="http://www.wikidata.org/entity/Q1709830">
+            Q1709830
+        </abbr>
+      </a>
+      <a href="?predicate=http%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2FP356">
+        <abbr title="http://www.wikidata.org/prop/direct/P356">
+            P356
+        </abbr>
+      </a>
+      <a href="?object=%2210.1002%2F(ISSN)2158-1592%22" resource="http://www.wikidata.org/entity/Q1709830">"10.1002/(ISSN)2158-1592"</a>.
+    </li>
+    <li>
+      <a href="?subject=http%3A%2F%2Fwww.wikidata.org%2Fentity%2FQ1828807">
+        <abbr title="http://www.wikidata.org/entity/Q1828807">
+            Q1828807
+        </abbr>
+      </a>
+      <a href="?predicate=http%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2FP356">
+        <abbr title="http://www.wikidata.org/prop/direct/P356">
+            P356
+        </abbr>
+      </a>
+      <a href="?object=%2210.1002%2F(ISSN)1526-4998%22" resource="http://www.wikidata.org/entity/Q1828807">"10.1002/(ISSN)1526-4998"</a>.
+    </li>
+    <li>
+      <a href="?subject=http%3A%2F%2Fwww.wikidata.org%2Fentity%2FQ1801903">
+        <abbr title="http://www.wikidata.org/entity/Q1801903">
+            Q1801903
+        </abbr>
+      </a>
+      <a href="?predicate=http%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2FP356">
+        <abbr title="http://www.wikidata.org/prop/direct/P356">
+            P356
+        </abbr>
+      </a>
+      <a href="?object=%2210.1111%2FJ.1096-3642.1858.TB02500.X%22" resource="http://www.wikidata.org/entity/Q1801903">"10.1111/J.1096-3642.1858.TB02500.X"</a>.
+    </li>
+    <li>
+      <a href="?subject=http%3A%2F%2Fwww.wikidata.org%2Fentity%2FQ58855085">
+        <abbr title="http://www.wikidata.org/entity/Q58855085">
+            Q58855085
+        </abbr>
+      </a>
+      <a href="?predicate=http%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2FP356">
+        <abbr title="http://www.wikidata.org/prop/direct/P356">
+            P356
+        </abbr>
+      </a>
+      <a href="?object=%2210.1016%2FS0169-5347(03)00004-1%22" resource="http://www.wikidata.org/entity/Q58855085">"10.1016/S0169-5347(03)00004-1"</a>.
+    </li>
+    <li>
+      <a href="?subject=http%3A%2F%2Fwww.wikidata.org%2Fentity%2FQ1954883">
+        <abbr title="http://www.wikidata.org/entity/Q1954883">
+            Q1954883
+        </abbr>
+      </a>
+      <a href="?predicate=http%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2FP356">
+        <abbr title="http://www.wikidata.org/prop/direct/P356">
+            P356
+        </abbr>
+      </a>
+      <a href="?object=%2210.1002%2F(ISSN)1521-186X%22" resource="http://www.wikidata.org/entity/Q1954883">"10.1002/(ISSN)1521-186X"</a>.
+    </li>
+    <li>
+      <a href="?subject=http%3A%2F%2Fwww.wikidata.org%2Fentity%2FQ1921948">
+        <abbr title="http://www.wikidata.org/entity/Q1921948">
+            Q1921948
+        </abbr>
+      </a>
+      <a href="?predicate=http%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2FP356">
+        <abbr title="http://www.wikidata.org/prop/direct/P356">
+            P356
+        </abbr>
+      </a>
+      <a href="?object=%2210.1111%2F(ISSN)1462-5822%22" resource="http://www.wikidata.org/entity/Q1921948">"10.1111/(ISSN)1462-5822"</a>.
+    </li>
+    <li>
+      <a href="?subject=http%3A%2F%2Fwww.wikidata.org%2Fentity%2FQ1943729">
+        <abbr title="http://www.wikidata.org/entity/Q1943729">
+            Q1943729
+        </abbr>
+      </a>
+      <a href="?predicate=http%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2FP356">
+        <abbr title="http://www.wikidata.org/prop/direct/P356">
+            P356
+        </abbr>
+      </a>
+      <a href="?object=%2210.5962%2FBHL.TITLE.5378%22" resource="http://www.wikidata.org/entity/Q1943729">"10.5962/BHL.TITLE.5378"</a>.
+    </li>
+    <li>
+      <a href="?subject=http%3A%2F%2Fwww.wikidata.org%2Fentity%2FQ87985715">
+        <abbr title="http://www.wikidata.org/entity/Q87985715">
+            Q87985715
+        </abbr>
+      </a>
+      <a href="?predicate=http%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2FP356">
+        <abbr title="http://www.wikidata.org/prop/direct/P356">
+            P356
+        </abbr>
+      </a>
+      <a href="?object=%2210.5962%2FBHL.TITLE.5378%22" resource="http://www.wikidata.org/entity/Q87985715">"10.5962/BHL.TITLE.5378"</a>.
+    </li>
+    <li>
+      <a href="?subject=http%3A%2F%2Fwww.wikidata.org%2Fentity%2FQ56158001">
+        <abbr title="http://www.wikidata.org/entity/Q56158001">
+            Q56158001
+        </abbr>
+      </a>
+      <a href="?predicate=http%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2FP356">
+        <abbr title="http://www.wikidata.org/prop/direct/P356">
+            P356
+        </abbr>
+      </a>
+      <a href="?object=%2210.1017%2FS0008423910000612%22" resource="http://www.wikidata.org/entity/Q56158001">"10.1017/S0008423910000612"</a>.
+    </li>
+    <li>
+      <a href="?subject=http%3A%2F%2Fwww.wikidata.org%2Fentity%2FQ2044839">
+        <abbr title="http://www.wikidata.org/entity/Q2044839">
+            Q2044839
+        </abbr>
+      </a>
+      <a href="?predicate=http%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2FP356">
+        <abbr title="http://www.wikidata.org/prop/direct/P356">
+            P356
+        </abbr>
+      </a>
+      <a href="?object=%2210.1111%2F(ISSN)1540-8191%22" resource="http://www.wikidata.org/entity/Q2044839">"10.1111/(ISSN)1540-8191"</a>.
+    </li>
+    <li>
+      <a href="?subject=http%3A%2F%2Fwww.wikidata.org%2Fentity%2FQ2222325">
+        <abbr title="http://www.wikidata.org/entity/Q2222325">
+            Q2222325
+        </abbr>
+      </a>
+      <a href="?predicate=http%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2FP356">
+        <abbr title="http://www.wikidata.org/prop/direct/P356">
+            P356
+        </abbr>
+      </a>
+      <a href="?object=%2210.1111%2F(ISSN)1540-8175%22" resource="http://www.wikidata.org/entity/Q2222325">"10.1111/(ISSN)1540-8175"</a>.
+    </li>
+    <li>
+      <a href="?subject=http%3A%2F%2Fwww.wikidata.org%2Fentity%2FQ31142528">
+        <abbr title="http://www.wikidata.org/entity/Q31142528">
+            Q31142528
+        </abbr>
+      </a>
+      <a href="?predicate=http%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2FP356">
+        <abbr title="http://www.wikidata.org/prop/direct/P356">
+            P356
+        </abbr>
+      </a>
+      <a href="?object=%2210.1007%2FS00442-007-0946-1%22" resource="http://www.wikidata.org/entity/Q31142528">"10.1007/S00442-007-0946-1"</a>.
+    </li>
+    <li>
+      <a href="?subject=http%3A%2F%2Fwww.wikidata.org%2Fentity%2FQ2234742">
+        <abbr title="http://www.wikidata.org/entity/Q2234742">
+            Q2234742
+        </abbr>
+      </a>
+      <a href="?predicate=http%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2FP356">
+        <abbr title="http://www.wikidata.org/prop/direct/P356">
+            P356
+        </abbr>
+      </a>
+      <a href="?object=%2210.1111%2F(ISSN)1744-7348%22" resource="http://www.wikidata.org/entity/Q2234742">"10.1111/(ISSN)1744-7348"</a>.
+    </li>
+    <li>
+      <a href="?subject=http%3A%2F%2Fwww.wikidata.org%2Fentity%2FQ2353726">
+        <abbr title="http://www.wikidata.org/entity/Q2353726">
+            Q2353726
+        </abbr>
+      </a>
+      <a href="?predicate=http%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2FP356">
+        <abbr title="http://www.wikidata.org/prop/direct/P356">
+            P356
+        </abbr>
+      </a>
+      <a href="?object=%2210.1002%2F(ISSN)1097-0266%22" resource="http://www.wikidata.org/entity/Q2353726">"10.1002/(ISSN)1097-0266"</a>.
+    </li>
+    <li>
+      <a href="?subject=http%3A%2F%2Fwww.wikidata.org%2Fentity%2FQ29394585">
+        <abbr title="http://www.wikidata.org/entity/Q29394585">
+            Q29394585
+        </abbr>
+      </a>
+      <a href="?predicate=http%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2FP356">
+        <abbr title="http://www.wikidata.org/prop/direct/P356">
+            P356
+        </abbr>
+      </a>
+      <a href="?object=%2210.2307%2F2398921%22" resource="http://www.wikidata.org/entity/Q29394585">"10.2307/2398921"</a>.
+    </li>
+    <li>
+      <a href="?subject=http%3A%2F%2Fwww.wikidata.org%2Fentity%2FQ2400200">
+        <abbr title="http://www.wikidata.org/entity/Q2400200">
+            Q2400200
+        </abbr>
+      </a>
+      <a href="?predicate=http%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2FP356">
+        <abbr title="http://www.wikidata.org/prop/direct/P356">
+            P356
+        </abbr>
+      </a>
+      <a href="?object=%2210.1111%2F(ISSN)1477-9552%22" resource="http://www.wikidata.org/entity/Q2400200">"10.1111/(ISSN)1477-9552"</a>.
+    </li>
+    <li>
+      <a href="?subject=http%3A%2F%2Fwww.wikidata.org%2Fentity%2FQ56657352">
+        <abbr title="http://www.wikidata.org/entity/Q56657352">
+            Q56657352
+        </abbr>
+      </a>
+      <a href="?predicate=http%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2FP356">
+        <abbr title="http://www.wikidata.org/prop/direct/P356">
+            P356
+        </abbr>
+      </a>
+      <a href="?object=%2210.1145%2F1457720.1457765%22" resource="http://www.wikidata.org/entity/Q56657352">"10.1145/1457720.1457765"</a>.
+    </li>
+    <li>
+      <a href="?subject=http%3A%2F%2Fwww.wikidata.org%2Fentity%2FQ2471539">
+        <abbr title="http://www.wikidata.org/entity/Q2471539">
+            Q2471539
+        </abbr>
+      </a>
+      <a href="?predicate=http%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2FP356">
+        <abbr title="http://www.wikidata.org/prop/direct/P356">
+            P356
+        </abbr>
+      </a>
+      <a href="?object=%2210.1002%2F(ISSN)1097-4628%22" resource="http://www.wikidata.org/entity/Q2471539">"10.1002/(ISSN)1097-4628"</a>.
+    </li>
+    <li>
+      <a href="?subject=http%3A%2F%2Fwww.wikidata.org%2Fentity%2FQ2470076">
+        <abbr title="http://www.wikidata.org/entity/Q2470076">
+            Q2470076
+        </abbr>
+      </a>
+      <a href="?predicate=http%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2FP356">
+        <abbr title="http://www.wikidata.org/prop/direct/P356">
+            P356
+        </abbr>
+      </a>
+      <a href="?object=%2210.1111%2F(ISSN)1445-6664%22" resource="http://www.wikidata.org/entity/Q2470076">"10.1111/(ISSN)1445-6664"</a>.
+    </li>
+    <li>
+      <a href="?subject=http%3A%2F%2Fwww.wikidata.org%2Fentity%2FQ2509511">
+        <abbr title="http://www.wikidata.org/entity/Q2509511">
+            Q2509511
+        </abbr>
+      </a>
+      <a href="?predicate=http%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2FP356">
+        <abbr title="http://www.wikidata.org/prop/direct/P356">
+            P356
+        </abbr>
+      </a>
+      <a href="?object=%2210.1002%2F(ISSN)1099-159X%22" resource="http://www.wikidata.org/entity/Q2509511">"10.1002/(ISSN)1099-159X"</a>.
+    </li>
+    <li>
+      <a href="?subject=http%3A%2F%2Fwww.wikidata.org%2Fentity%2FQ2689012">
+        <abbr title="http://www.wikidata.org/entity/Q2689012">
+            Q2689012
+        </abbr>
+      </a>
+      <a href="?predicate=http%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2FP356">
+        <abbr title="http://www.wikidata.org/prop/direct/P356">
+            P356
+        </abbr>
+      </a>
+      <a href="?object=%2210.1002%2F(ISSN)1521-3951%22" resource="http://www.wikidata.org/entity/Q2689012">"10.1002/(ISSN)1521-3951"</a>.
+    </li>
+    <li>
+      <a href="?subject=http%3A%2F%2Fwww.wikidata.org%2Fentity%2FQ2699825">
+        <abbr title="http://www.wikidata.org/entity/Q2699825">
+            Q2699825
+        </abbr>
+      </a>
+      <a href="?predicate=http%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2FP356">
+        <abbr title="http://www.wikidata.org/prop/direct/P356">
+            P356
+        </abbr>
+      </a>
+      <a href="?object=%2210.1111%2F(ISSN)1398-9995%22" resource="http://www.wikidata.org/entity/Q2699825">"10.1111/(ISSN)1398-9995"</a>.
+    </li>
+    <li>
+      <a href="?subject=http%3A%2F%2Fwww.wikidata.org%2Fentity%2FQ104036881">
+        <abbr title="http://www.wikidata.org/entity/Q104036881">
+            Q104036881
+        </abbr>
+      </a>
+      <a href="?predicate=http%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2FP356">
+        <abbr title="http://www.wikidata.org/prop/direct/P356">
+            P356
+        </abbr>
+      </a>
+      <a href="?object=%2210.1016%2F0022-314X(87)90039-4%22" resource="http://www.wikidata.org/entity/Q104036881">"10.1016/0022-314X(87)90039-4"</a>.
+    </li>
+    <li>
+      <a href="?subject=http%3A%2F%2Fwww.wikidata.org%2Fentity%2FQ105836976">
+        <abbr title="http://www.wikidata.org/entity/Q105836976">
+            Q105836976
+        </abbr>
+      </a>
+      <a href="?predicate=http%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2FP356">
+        <abbr title="http://www.wikidata.org/prop/direct/P356">
+            P356
+        </abbr>
+      </a>
+      <a href="?object=%2210.1007%2FBF02020326%22" resource="http://www.wikidata.org/entity/Q105836976">"10.1007/BF02020326"</a>.
+    </li>
+    <li>
+      <a href="?subject=http%3A%2F%2Fwww.wikidata.org%2Fentity%2FQ45151064">
+        <abbr title="http://www.wikidata.org/entity/Q45151064">
+            Q45151064
+        </abbr>
+      </a>
+      <a href="?predicate=http%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2FP356">
+        <abbr title="http://www.wikidata.org/prop/direct/P356">
+            P356
+        </abbr>
+      </a>
+      <a href="?object=%2210.1111%2FBJD.14362%22" resource="http://www.wikidata.org/entity/Q45151064">"10.1111/BJD.14362"</a>.
+    </li>
+    <li>
+      <a href="?subject=http%3A%2F%2Fwww.wikidata.org%2Fentity%2FQ29454228">
+        <abbr title="http://www.wikidata.org/entity/Q29454228">
+            Q29454228
+        </abbr>
+      </a>
+      <a href="?predicate=http%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2FP356">
+        <abbr title="http://www.wikidata.org/prop/direct/P356">
+            P356
+        </abbr>
+      </a>
+      <a href="?object=%2210.11646%2FZOOTAXA.4020.2.9%22" resource="http://www.wikidata.org/entity/Q29454228">"10.11646/ZOOTAXA.4020.2.9"</a>.
+    </li>
+    <li>
+      <a href="?subject=http%3A%2F%2Fwww.wikidata.org%2Fentity%2FQ115931914">
+        <abbr title="http://www.wikidata.org/entity/Q115931914">
+            Q115931914
+        </abbr>
+      </a>
+      <a href="?predicate=http%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2FP356">
+        <abbr title="http://www.wikidata.org/prop/direct/P356">
+            P356
+        </abbr>
+      </a>
+      <a href="?object=%2210.1001%2FJAMA.2014.12133%22" resource="http://www.wikidata.org/entity/Q115931914">"10.1001/JAMA.2014.12133"</a>.
+    </li>
+    <li>
+      <a href="?subject=http%3A%2F%2Fwww.wikidata.org%2Fentity%2FQ3146605">
+        <abbr title="http://www.wikidata.org/entity/Q3146605">
+            Q3146605
+        </abbr>
+      </a>
+      <a href="?predicate=http%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2FP356">
+        <abbr title="http://www.wikidata.org/prop/direct/P356">
+            P356
+        </abbr>
+      </a>
+      <a href="?object=%2210.1109%2FIEEESTD.2003.94247%22" resource="http://www.wikidata.org/entity/Q3146605">"10.1109/IEEESTD.2003.94247"</a>.
+    </li>
+    <li>
+      <a href="?subject=http%3A%2F%2Fwww.wikidata.org%2Fentity%2FQ3186907">
+        <abbr title="http://www.wikidata.org/entity/Q3186907">
+            Q3186907
+        </abbr>
+      </a>
+      <a href="?predicate=http%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2FP356">
+        <abbr title="http://www.wikidata.org/prop/direct/P356">
+            P356
+        </abbr>
+      </a>
+      <a href="?object=%2210.1002%2F(ISSN)1096-9861%22" resource="http://www.wikidata.org/entity/Q3186907">"10.1002/(ISSN)1096-9861"</a>.
+    </li>
+    <li>
+      <a href="?subject=http%3A%2F%2Fwww.wikidata.org%2Fentity%2FQ3186893">
+        <abbr title="http://www.wikidata.org/entity/Q3186893">
+            Q3186893
+        </abbr>
+      </a>
+      <a href="?predicate=http%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2FP356">
+        <abbr title="http://www.wikidata.org/prop/direct/P356">
+            P356
+        </abbr>
+      </a>
+      <a href="?object=%2210.1107%2FS16005767%22" resource="http://www.wikidata.org/entity/Q3186893">"10.1107/S16005767"</a>.
+    </li>
+    <li>
+      <a href="?subject=http%3A%2F%2Fwww.wikidata.org%2Fentity%2FQ3186898">
+        <abbr title="http://www.wikidata.org/entity/Q3186898">
+            Q3186898
+        </abbr>
+      </a>
+      <a href="?predicate=http%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2FP356">
+        <abbr title="http://www.wikidata.org/prop/direct/P356">
+            P356
+        </abbr>
+      </a>
+      <a href="?object=%2210.1111%2F(ISSN)1600-048X%22" resource="http://www.wikidata.org/entity/Q3186898">"10.1111/(ISSN)1600-048X"</a>.
+    </li>
+    <li>
+      <a href="?subject=http%3A%2F%2Fwww.wikidata.org%2Fentity%2FQ3247086">
+        <abbr title="http://www.wikidata.org/entity/Q3247086">
+            Q3247086
+        </abbr>
+      </a>
+      <a href="?predicate=http%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2FP356">
+        <abbr title="http://www.wikidata.org/prop/direct/P356">
+            P356
+        </abbr>
+      </a>
+      <a href="?object=%2210.1175%2F1520-0493(1969)097%3C0225%3ATAHSO%3E2.3.CO%3B2%22" resource="http://www.wikidata.org/entity/Q3247086">"10.1175/1520-0493(1969)097<0225:TAHSO>2.3.CO;2"</a>.
+    </li>
+    <li>
+      <a href="?subject=http%3A%2F%2Fwww.wikidata.org%2Fentity%2FQ3313811">
+        <abbr title="http://www.wikidata.org/entity/Q3313811">
+            Q3313811
+        </abbr>
+      </a>
+      <a href="?predicate=http%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2FP356">
+        <abbr title="http://www.wikidata.org/prop/direct/P356">
+            P356
+        </abbr>
+      </a>
+      <a href="?object=%2210.3406%2FMCM%22" resource="http://www.wikidata.org/entity/Q3313811">"10.3406/MCM"</a>.
+    </li>
+    <li>
+      <a href="?subject=http%3A%2F%2Fwww.wikidata.org%2Fentity%2FQ3415161">
+        <abbr title="http://www.wikidata.org/entity/Q3415161">
+            Q3415161
+        </abbr>
+      </a>
+      <a href="?predicate=http%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2FP356">
+        <abbr title="http://www.wikidata.org/prop/direct/P356">
+            P356
+        </abbr>
+      </a>
+      <a href="?object=%2210.17487%2FRFC0977%22" resource="http://www.wikidata.org/entity/Q3415161">"10.17487/RFC0977"</a>.
+    </li>
+</ul>
+
+ <ul class="links">
+   <li><a href="https://query.wikidata.org/bigdata/ldf?predicate=http%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2FP356&page=2" rel="next" property="hydra:nextPage">next</a></li>
+ </ul>
+
+  </main>
+  <footer>
+    <p>
+      Powered by a <a href="https://github.com/LinkedDataFragments/Server.java" target="_blank">Linked Data Fragments Server</a>
+      ©2013–2023 Ghent University - imec
+    </p>
+  </footer>
+</body>
+</html>

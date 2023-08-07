@@ -1,0 +1,89 @@
+{
+    "license": [
+        {
+            "start": {
+                "date-parts": [
+                    [
+                        2018,
+                        8,
+                        29
+                    ]
+                ],
+                "date-time": "2018-08-29T00:00:00Z",
+                "timestamp": 1535500800000
+            },
+            "content-version": "unspecified",
+            "delay-in-days": 0,
+            "URL": "http://creativecommons.org/licenses/by/4.0"
+        }
+    ],
+    "title": [
+        "Efficacy Test on Some Entomopathogenic Bacterial Isolates of the Periplaneta americana and Blatella germanica Cockroaches (Orthoptera) at Laboratory Scale"
+    ],
+    "abstract": "<jats:p>Cockroach is one of insects which plays a role as a disease vector, causing negative impacts to human health. Controlling cockroach by using excessive insecticide adds residue to the environment and strengthens its resistance toward insecticides. The objective of this research was to implement and evaluate the alternative use of biological control agent, such as entomopathogenic bacteria against two types of cockroach. In this study, three entomopathogenic bacterial isolates derived from dead Spodoptera litura pupa and Bacillus thuringiensis were employed. The test was performed by administering spraying and baiting methods at cell concentration of 108 CFU/ml. The results showed that three entomopathogenic bacterial isolates used in this study affected cockroach mortality. The result of morphological observation and Postulate Koch test showed that cockroach mortality was caused by the bacterial isolates. The spraying method on BLSP4 bacterial isolate contributed to the highest mortality rate by 80% to the Blatella germanica. Meanwhile, in the baiting method, the isolate of B. thuringiensis caused the highest mortality to the Periplaneta americana by 10%. Based on the mortality period, it can be recognized that BLSP4 treatment with spraying method affected the mortality of B. germanica effectively within 2 hours 30 minutes 46 seconds. An important finding in this study was that BLSP4 bacteria has been known potential for controlling cockroach using spraying method. The result of this study provides insights that BLSP4 bacteria can be used as a new alternative for controlling cockroach and generally in pest management.</jats:p>",
+    "subject": [
+        "General Earth and Planetary Sciences",
+        "General Engineering",
+        "General Environmental Science"
+    ],
+    "issued": {
+        "date-parts": [
+            [
+                2018,
+                8,
+                29
+            ]
+        ]
+    },
+    "author": [
+        {
+            "given": "Deni",
+            "family": "Zulfiana",
+            "sequence": "first",
+            "affiliation": []
+        },
+        {
+            "given": "Monaliza Sekar",
+            "family": "Rini",
+            "sequence": "additional",
+            "affiliation": []
+        },
+        {
+            "given": "Bramantyo",
+            "family": "Wikantyoso",
+            "sequence": "additional",
+            "affiliation": []
+        },
+        {
+            "given": "Ni Putu Ratna Ayu",
+            "family": "Krishanti",
+            "sequence": "additional",
+            "affiliation": []
+        }
+    ],
+    "publisher": "Universitas Negeri Semarang",
+    "container-title": [
+        "Biosaintifika: Journal of Biology &amp; Biology Education"
+    ],
+    "ISSN": [
+        "2338-7610",
+        "2085-191X"
+    ],
+    "resource": {
+        "primary": {
+            "URL": "https://journal.unnes.ac.id/nju/index.php/biosaintifika/article/view/12934"
+        }
+    },
+    "match": "periplaneta americana",
+    "licenseQID": "Q20007257",
+    "matches": [
+        "periplaneta americana",
+        "spodoptera litura",
+        "bacillus thuringiensis"
+    ],
+    "matches-qid": [
+        "Q267996",
+        "Q27294",
+        "Q310467"
+    ]
+}
