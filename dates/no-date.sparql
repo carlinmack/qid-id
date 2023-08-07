@@ -1,0 +1,6 @@
+select ?item where {{
+    SERVICE bd:sample {{ ?item wdt:P356 [] . bd:serviceParam bd:sample.limit {limit} }}
+     MINUS {{
+        ?item wdt:P577 [] .
+      }}
+}}
